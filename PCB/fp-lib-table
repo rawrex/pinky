@@ -7,7 +7,7 @@
   (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/ElectronicCats-KiCad-Libraries/Footprints")(options "")(descr ""))
   (lib (name "Switches")(type "KiCad")(uri "${KIPRJMOD}/ElectronicCats-KiCad-Libraries/Footprints/Switches.pretty")(options "")(descr ""))
   (lib (name "SofleKeyboard-footprint")(type "KiCad")(uri "${KIPRJMOD}/SofleKeyboard/footprints/SofleKeyboard-footprint.pretty")(options "")(descr ""))
-  (lib (name "KLOTZ")(type "KiCad")(uri "${KIPRJMOD}/KLOTZ.pretty")(options "")(descr ""))
+  (lib (name "PLITKA")(type "KiCad")(uri "${KIPRJMOD}/PLITKA.pretty")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
   (lib (name "keyboard_reversible")(type "KiCad")(uri "${KIPRJMOD}/keyboard_reversible.pretty-main")(options "")(descr ""))
 )

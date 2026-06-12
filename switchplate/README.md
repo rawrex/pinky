@@ -1,9 +1,9 @@
-# KLOTZ SWITCHPLATE
+# PLITKA SWITCHPLATE
 
-If you plan to use the KLOTZ with hotswap sockets you should use a switchplate. If you plan on solder in the switches it looks nicer.
+If you plan to use the PLITKA with hotswap sockets you should use a switchplate. If you plan on solder in the switches it looks nicer.
 
 ## MANUFACTURING
-If you want to get the switchplate made you need to upload the **KLOTZ_0-2_plate_gerbers.zip** file to the website of the manufacture ([JLCPCB](https://jlcpcb.com/) for example).
+If you want to get the switchplate made you need to upload the **PLITKA_0-2_plate_gerbers.zip** file to the website of the manufacture ([JLCPCB](https://jlcpcb.com/) for example).
 
 - upload the ZIP
 - sometimes the Gerber preview from JLCPCB can't display the PCB, even when the files are fine. In this case use this dimensions: 120.5 mm* 85.5 mm
@@ -16,4 +16,4 @@ If you want to get the switchplate made you need to upload the **KLOTZ_0-2_plate
 - Remove Order Number Yes
 - Flying Probe Test Not Test
 
-![KLOTZ switchplate](/docs/images/KLOTZ_plate.png)
+![PLITKA switchplate](/docs/images/PLITKA_plate.png)
