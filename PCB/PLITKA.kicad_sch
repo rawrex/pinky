@@ -79,6 +79,39 @@
 					)
 				)
 			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "battery cell"
 				(at 0 0 0)
 				(show_name no)
@@ -103,8 +136,8 @@
 					)
 				)
 				(rectangle
-					(start -1.5748 1.1938)
-					(end 1.4732 0.6858)
+					(start -1.524 1.016)
+					(end 1.524 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -139,7 +172,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 3.429) (xy 1.524 3.429)
+						(xy 0.762 3.048) (xy 1.778 3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -151,7 +184,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 3.937) (xy 1.016 2.921)
+						(xy 1.27 3.556) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -270,6 +303,28 @@
 					)
 				)
 			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(show_name no)
@@ -375,7 +430,7 @@
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -796,6 +851,606 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PLITKA:nice_nano"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.192 23.876 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "nice!nano"
+				(at -7.366 21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "PLITKA:nice_nano"
+				(at -0.508 -28.448 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "nice_nano_0_1"
+				(rectangle
+					(start -12.7 19.05)
+					(end 12.7 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "nice_nano_1_1"
+				(pin power_in line
+					(at -17.78 16.51 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 13.97 0)
+					(length 5.08)
+					(name "D1/P0.06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 11.43 0)
+					(length 5.08)
+					(name "D0/0.08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 3.81 0)
+					(length 5.08)
+					(name "D2/P0.17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 1.27 0)
+					(length 5.08)
+					(name "D3/P0.20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -1.27 0)
+					(length 5.08)
+					(name "D4/P0.22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -3.81 0)
+					(length 5.08)
+					(name "D5/P0.24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "D6/P1.00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -8.89 0)
+					(length 5.08)
+					(name "D7/P0.11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -11.43 0)
+					(length 5.08)
+					(name "D8/P1.04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -13.97 0)
+					(length 5.08)
+					(name "D9/P1.06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 16.51 180)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 13.97 180)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 8.89 180)
+					(length 5.08)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "EXT_VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "D21/P0.31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 1.27 180)
+					(length 5.08)
+					(name "D20/P0.29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -1.27 180)
+					(length 5.08)
+					(name "D19/P0.02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "D18/P1.15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -6.35 180)
+					(length 5.08)
+					(name "D15/P1.13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -8.89 180)
+					(length 5.08)
+					(name "D14/P1.11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -11.43 180)
+					(length 5.08)
+					(name "D16/P0.10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -13.97 180)
+					(length 5.08)
+					(name "D10/P0.09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -17.78 0)
+					(length 5.08)
+					(name "P1.01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 5.08)
+					(name "P1.02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -22.86 0)
+					(length 5.08)
+					(name "P1.07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
@@ -807,7 +1462,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 4.318 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -906,9 +1561,20 @@
 				)
 			)
 			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
+						(xy -1.524 0.254) (xy 1.5748 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1347,515 +2013,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kbd:ProMicro"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ProMicro"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ProMicro_0_1"
-				(rectangle
-					(start -12.7 16.51)
-					(end 12.7 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ProMicro_1_1"
-				(pin bidirectional line
-					(at -17.78 13.97 0)
-					(length 5.08)
-					(name "TX0/D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 11.43 0)
-					(length 5.08)
-					(name "RX1/D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 8.89 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 6.35 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 3.81 0)
-					(length 5.08)
-					(name "2/D1/SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 1.27 0)
-					(length 5.08)
-					(name "3/D0/SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -1.27 0)
-					(length 5.08)
-					(name "4/D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "5/C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -6.35 0)
-					(length 5.08)
-					(name "6/D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -8.89 0)
-					(length 5.08)
-					(name "7/E6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -11.43 0)
-					(length 5.08)
-					(name "8/B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -13.97 0)
-					(length 5.08)
-					(name "9/B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -13.97 180)
-					(length 5.08)
-					(name "B6/10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -11.43 180)
-					(length 5.08)
-					(name "B2/16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -8.89 180)
-					(length 5.08)
-					(name "B3/14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -6.35 180)
-					(length 5.08)
-					(name "B1/15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -3.81 180)
-					(length 5.08)
-					(name "F7/A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -1.27 180)
-					(length 5.08)
-					(name "F6/A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 1.27 180)
-					(length 5.08)
-					(name "F5/A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 3.81 180)
-					(length 5.08)
-					(name "F4/A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 6.35 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 8.89 180)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 11.43 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 13.97 180)
-					(length 5.08)
-					(name "RAW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "marbastlib-mx:MX_SW_HS"
 			(pin_numbers
 				(hide yes)
@@ -1890,7 +2047,7 @@
 					)
 				)
 			)
-			(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+			(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2046,8 +2203,12 @@
 		)
 		(symbol "power:+BATT"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2108,7 +2269,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag battery"
+			(property "ki_keywords" "global power battery"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2161,8 +2322,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+BATT"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2182,8 +2342,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2244,7 +2408,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2273,8 +2437,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2294,8 +2457,12 @@
 		)
 		(symbol "power:VCC"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2314,7 +2481,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2356,7 +2523,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2409,8 +2576,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VCC"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2431,7 +2597,7 @@
 	)
 	(text "SWITCHMATRIX"
 		(exclude_from_sim no)
-		(at 143.002 90.424 0)
+		(at 147.32 96.774 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2442,7 +2608,7 @@
 	)
 	(text "POWER\nSWITCH"
 		(exclude_from_sim no)
-		(at 24.892 113.538 0)
+		(at 24.892 112.268 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2453,7 +2619,7 @@
 	)
 	(text "HOLES"
 		(exclude_from_sim no)
-		(at 191.516 21.844 0)
+		(at 166.37 19.558 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2464,7 +2630,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 23.622 37.084 0)
+		(at 21.59 20.066 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2475,7 +2641,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 191.008 76.708 0)
+		(at 165.862 67.564 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2629,12 +2795,6 @@
 		(uuid "dd8f4f72-62e5-4de7-a35d-c415210a96b7")
 	)
 	(junction
-		(at 25.4 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4b0037b-b9f5-4976-b80d-9357a855bbdc")
-	)
-	(junction
 		(at 116.332 30.226)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2659,44 +2819,72 @@
 		(uuid "f8c6c6f8-96ad-4bd8-91f6-5cf0af9f9263")
 	)
 	(no_connect
-		(at 25.4 45.72)
-		(uuid "14fe1642-edf5-468d-ab8c-83fa8635e82b")
+		(at 62.23 68.58)
+		(uuid "0feebb61-2d17-4a69-94cd-8db60596ff7c")
 	)
 	(no_connect
-		(at 25.4 60.96)
-		(uuid "287afa22-f643-40ef-ab82-84f9d87f0cd1")
+		(at 26.67 45.72)
+		(uuid "1ecea235-c324-495e-8478-e49715d9f8c1")
 	)
 	(no_connect
-		(at 60.96 58.42)
+		(at 62.23 66.04)
+		(uuid "21e3616a-f412-4e84-841f-f66ce10f396f")
+	)
+	(no_connect
+		(at 62.23 58.42)
 		(uuid "4343b8ea-a0fb-4bc0-9d70-4583af9cf2f9")
 	)
 	(no_connect
-		(at 25.4 55.88)
-		(uuid "44a44b56-4fb7-4980-9845-db8bca8e1b01")
+		(at 62.23 55.88)
+		(uuid "44a44b56-4fb7-4980-9845-db8bca8e1b02")
 	)
 	(no_connect
-		(at 60.96 55.88)
-		(uuid "44a44b56-4fb7-4980-9845-db8bca8e1b02")
+		(at 26.67 82.55)
+		(uuid "4da5edbc-a288-4260-bffd-0821693d3086")
 	)
 	(no_connect
 		(at 66.294 117.602)
 		(uuid "5796774c-ec21-45b9-a18c-d89cb4a62a8d")
 	)
 	(no_connect
-		(at 25.4 63.5)
-		(uuid "799e6a28-c356-4bfa-8641-5c6cd287f6ae")
+		(at 26.67 80.01)
+		(uuid "7956bcf4-306c-4f2b-8bd0-8260906e6005")
 	)
 	(no_connect
-		(at 60.96 60.96)
+		(at 62.23 60.96)
 		(uuid "7db43c4f-558d-4efe-ba05-daa14ef7035f")
 	)
 	(no_connect
-		(at 25.4 58.42)
-		(uuid "8b18c354-5af8-4b00-9e6e-e28e36fe7988")
+		(at 62.23 71.12)
+		(uuid "7f09b7df-bc06-4f13-8863-a0899f8b21e1")
 	)
 	(no_connect
-		(at 25.4 48.26)
-		(uuid "9795a58d-0ac3-430a-9422-aa4c197a5f6c")
+		(at 26.67 50.8)
+		(uuid "a2e16729-bda8-48a3-9f65-4b891b388081")
+	)
+	(no_connect
+		(at 62.23 63.5)
+		(uuid "ad71d5d9-6d2d-4b24-ad47-5283e103141d")
+	)
+	(no_connect
+		(at 26.67 43.18)
+		(uuid "b56e2d4b-b4a4-4968-9be9-a9ce35625391")
+	)
+	(no_connect
+		(at 62.23 43.18)
+		(uuid "c6ac5405-df48-4d2a-9f51-93413e71c1fa")
+	)
+	(no_connect
+		(at 26.67 53.34)
+		(uuid "ce7709d7-3c07-4f3a-8ab1-6ace62791d0c")
+	)
+	(no_connect
+		(at 26.67 48.26)
+		(uuid "f24163f9-297a-4c7f-bea5-af2b51e95367")
+	)
+	(no_connect
+		(at 26.67 77.47)
+		(uuid "f5ab90d2-543a-4cb3-8715-2c6011c24396")
 	)
 	(wire
 		(pts
@@ -2850,7 +3038,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 53.34) (xy 68.834 53.34)
+			(xy 62.23 53.34) (xy 68.58 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 65.278 45.72)
+			(xy 62.23 45.72) (xy 68.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 68.58 48.26)
+			(xy 62.23 48.26) (xy 68.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3147,16 +3335,6 @@
 			(type dash)
 		)
 		(uuid "b24e7dfc-a068-412a-a536-046614ba0536")
-	)
-	(wire
-		(pts
-			(xy 25.4 50.8) (xy 25.4 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b290daaa-00b6-4749-a071-e0f52c6a89ec")
 	)
 	(wire
 		(pts
@@ -3278,16 +3456,6 @@
 		)
 		(uuid "e17be922-93a6-4883-8c57-58e2d5a09601")
 	)
-	(wire
-		(pts
-			(xy 23.622 53.34) (xy 25.4 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f61b5a-04b8-41c0-becb-3f9e338373a8")
-	)
 	(polyline
 		(pts
 			(xy 80.01 11.43) (xy 80.01 103.378)
@@ -3338,6 +3506,16 @@
 		)
 		(uuid "f927d46c-63df-4fc8-bc75-3ed69e9e092a")
 	)
+	(wire
+		(pts
+			(xy 60.96 50.8) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2fe0b2-3476-443f-9828-6a7a0c7b8f1b")
+	)
 	(label "PAD2"
 		(at 34.29 123.952 0)
 		(effects
@@ -3358,7 +3536,7 @@
 		)
 		(uuid "9f9f75e8-5c71-4811-a30a-aee9f537e7ae")
 	)
-	(global_label "col4"
+	(global_label "col_A"
 		(shape input)
 		(at 94.488 23.876 90)
 		(fields_autoplaced yes)
@@ -3370,7 +3548,7 @@
 		)
 		(uuid "05f230b1-be55-47bc-82db-9b5e9063ed1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4086 17.3505 90)
+			(at 94.488 15.9318 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3560,7 @@
 			)
 		)
 	)
-	(global_label "col1"
+	(global_label "col_D"
 		(shape input)
 		(at 127.254 23.876 90)
 		(fields_autoplaced yes)
@@ -3394,7 +3572,7 @@
 		)
 		(uuid "0d2c0ab5-28fa-42ed-9f64-9b2a913d91e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.1746 17.3505 90)
+			(at 127.254 15.7504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +3584,7 @@
 			)
 		)
 	)
-	(global_label "col3"
+	(global_label "col_B"
 		(shape input)
 		(at 105.41 23.876 90)
 		(fields_autoplaced yes)
@@ -3418,7 +3596,7 @@
 		)
 		(uuid "13ad0dc1-5157-4a98-aa89-7dc833ed1960")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.3306 17.3505 90)
+			(at 105.41 15.7504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,31 +3608,7 @@
 			)
 		)
 	)
-	(global_label "row3"
-		(shape input)
-		(at 25.4 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "165b5751-9c9f-459f-aee8-022f98deddd7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5117 73.5806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col2"
+	(global_label "col_C"
 		(shape input)
 		(at 116.332 23.876 90)
 		(fields_autoplaced yes)
@@ -3466,7 +3620,7 @@
 		)
 		(uuid "2073bc19-6c94-4899-98ff-15fc9a0e28e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.2526 17.3505 90)
+			(at 116.332 15.7504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3478,31 +3632,7 @@
 			)
 		)
 	)
-	(global_label "row1"
-		(shape input)
-		(at 25.4 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21fec505-2863-474f-a51c-72bafc67b37b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5117 68.5006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row1"
+	(global_label "row_B"
 		(shape input)
 		(at 91.694 58.674 180)
 		(fields_autoplaced yes)
@@ -3514,7 +3644,7 @@
 		)
 		(uuid "36a4d4ce-f409-414a-9970-e6f425f8d2da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.8057 58.5946 0)
+			(at 83.2055 58.674 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,33 +3656,9 @@
 			)
 		)
 	)
-	(global_label "col3"
+	(global_label "col_E"
 		(shape input)
-		(at 60.96 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4017b678-5cbc-4de0-a084-779f83deeb61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.4855 71.0406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "row2"
-		(shape input)
-		(at 25.4 71.12 180)
+		(at 26.67 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3560,9 +3666,81 @@
 			)
 			(justify right)
 		)
-		(uuid "5a381129-f1a1-4072-a398-638e558bc44f")
+		(uuid "3c11af96-fc51-4de8-a246-f8ac472505d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5117 71.0406 0)
+			(at 18.6654 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col_A"
+		(shape input)
+		(at 26.67 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5320e57d-12e7-435c-8785-b2700d53a879")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.7258 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col_D"
+		(shape input)
+		(at 26.67 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54e3226a-6776-4aa9-9744-6524d84c76ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.5444 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row_C"
+		(shape input)
+		(at 26.67 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5810ff2e-10f3-4a31-8ca3-7e9aa9cf303a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.1815 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3598,31 +3776,7 @@
 			)
 		)
 	)
-	(global_label "col4"
-		(shape input)
-		(at 60.96 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "851cc5b0-ebf9-4102-a8de-d2903d4a19f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.4855 73.5806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "row0"
+	(global_label "row_A"
 		(shape input)
 		(at 91.694 40.386 180)
 		(fields_autoplaced yes)
@@ -3634,7 +3788,7 @@
 		)
 		(uuid "8a3d3dcb-63ad-4490-8b7a-411352468959")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.8057 40.3066 0)
+			(at 83.3869 40.386 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,19 +3800,19 @@
 			)
 		)
 	)
-	(global_label "col2"
+	(global_label "col_B"
 		(shape input)
-		(at 60.96 68.58 0)
+		(at 26.67 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a57c2fd4-a527-4a12-9b34-9bafdc263776")
+		(uuid "8d21cd17-f4cb-438f-9443-79f52797e605")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.4855 68.5006 0)
+			(at 18.5444 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +3820,55 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row_A"
+		(shape input)
+		(at 26.67 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b38e531e-48b5-43f2-8b3a-ae92f2b3f625")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3629 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row_B"
+		(shape input)
+		(at 26.67 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1701931-d6c7-48f4-ac0f-7ab622b957a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.1815 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3694,7 +3896,7 @@
 			)
 		)
 	)
-	(global_label "row3"
+	(global_label "row_D"
 		(shape input)
 		(at 91.694 95.25 180)
 		(fields_autoplaced yes)
@@ -3706,7 +3908,7 @@
 		)
 		(uuid "cd7cee8f-f357-45a9-9b89-f204781b027a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.8057 95.1706 0)
+			(at 83.2055 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,7 +3920,7 @@
 			)
 		)
 	)
-	(global_label "col0"
+	(global_label "col_E"
 		(shape input)
 		(at 138.176 23.876 90)
 		(fields_autoplaced yes)
@@ -3730,7 +3932,7 @@
 		)
 		(uuid "d0f0b6e5-357f-4641-b21d-56868340d777")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0966 17.3505 90)
+			(at 138.176 15.8714 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,7 +3944,31 @@
 			)
 		)
 	)
-	(global_label "row2"
+	(global_label "row_D"
+		(shape input)
+		(at 62.23 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d22184c1-7062-4b2b-988b-d84697fec47a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.7185 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row_C"
 		(shape input)
 		(at 91.694 77.47 180)
 		(fields_autoplaced yes)
@@ -3754,7 +3980,7 @@
 		)
 		(uuid "d9150ce6-52b3-49a4-8449-867ebdae9430")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.8057 77.3906 0)
+			(at 83.2055 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,57 +3992,9 @@
 			)
 		)
 	)
-	(global_label "col0"
+	(global_label "col_C"
 		(shape input)
-		(at 60.96 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcde0143-4560-426c-9bd8-e1a8c1f750eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.4855 63.4206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape input)
-		(at 60.96 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de9567b7-9c0c-4f16-989e-3f858ff4e787")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.4855 65.9606 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
-		(at 25.4 66.04 180)
+		(at 26.67 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3824,9 +4002,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e83b2bbf-11de-4f87-8567-4ee4eb7b7363")
+		(uuid "eb0c03a9-e7bf-4cfa-b89d-a31533b8de03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5117 65.9606 0)
+			(at 18.5444 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,7 +4028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01656841-06b3-4f44-b363-d6bec19fa6e4")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR7"
 			(at 163.83 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3862,7 +4040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.862 85.0899 90)
+			(at 166.37 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3894,8 +4072,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3910,7 +4089,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0105")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -3918,18 +4097,18 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.29 34.29 0)
+		(at 170.18 36.322 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052312c8-7082-4730-8fdc-be45b9c7b119")
-		(property "Reference" "MH3"
-			(at 164.338 33.0199 0)
+		(property "Reference" "H3"
+			(at 172.72 35.0519 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3940,7 +4119,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.338 35.5599 0)
+			(at 172.72 37.5919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,8 +4129,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.29 34.29 0)
+		(property "Footprint" ""
+			(at 170.18 36.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +4141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 34.29 0)
+			(at 170.18 36.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,8 +4151,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 34.29 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 36.322 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3985,14 +4165,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "MH3")
+					(reference "H3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 118.872 51.054 0)
 		(unit 1)
 		(body_style 1)
@@ -4002,8 +4182,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05f348eb-9a05-40e8-9e2d-51b3642a08b7")
-		(property "Reference" "SW8"
-			(at 118.872 46.482 0)
+		(property "Reference" "SW11"
+			(at 121.92 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4014,8 +4194,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 118.872 46.482 0)
-			(hide yes)
+			(at 118.872 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 118.872 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -4046,8 +4225,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 118.872 51.054 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4065,7 +4245,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW8")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -4083,8 +4263,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ecf4455-e900-453c-94e8-f99082fd818c")
-		(property "Reference" "D7"
-			(at 113.03 56.1339 90)
+		(property "Reference" "D6"
+			(at 113.03 54.8639 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4096,7 +4276,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 57.4039 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4106,7 +4285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 110.49 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -4128,8 +4307,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 110.49 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 110.49 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 56.134 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4147,14 +4349,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 140.716 32.766 0)
 		(unit 1)
 		(body_style 1)
@@ -4164,8 +4366,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1379ae49-5f43-4487-ba64-820f99c87628")
-		(property "Reference" "SW5"
-			(at 140.716 27.432 0)
+		(property "Reference" "SW16"
+			(at 143.764 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4176,8 +4378,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 140.716 27.432 0)
-			(hide yes)
+			(at 140.716 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4186,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 140.716 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -4208,8 +4409,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 140.716 32.766 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4227,7 +4429,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW5")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "141f259a-1a56-46aa-bae6-6be390066d37")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR6"
 			(at 69.596 124.206 0)
 			(hide yes)
 			(show_name no)
@@ -4256,7 +4458,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 67.564 116.078 0)
+			(at 69.596 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4287,8 +4489,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 69.596 120.396 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4303,7 +4506,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0106")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -4321,8 +4524,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a3f465a-e327-4540-b6f3-33c32a4901da")
-		(property "Reference" "D9"
-			(at 134.62 56.1339 90)
+		(property "Reference" "D13"
+			(at 134.62 54.8639 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4334,7 +4537,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 134.62 57.4039 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4344,7 +4546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 132.334 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -4366,8 +4568,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 132.334 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.334 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.334 56.134 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4385,7 +4610,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D9")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4404,7 +4629,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(property "Reference" "D1"
-			(at 101.6 37.8459 90)
+			(at 101.6 36.5759 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4416,7 +4641,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.6 39.1159 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4426,7 +4650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 99.568 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -4448,8 +4672,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 99.568 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 99.568 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.568 37.846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4486,7 +4733,7 @@
 		(fields_autoplaced yes)
 		(uuid "24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(property "Reference" "D14"
-			(at 134.62 74.9299 90)
+			(at 134.62 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4498,7 +4745,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 134.62 76.1999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4508,7 +4754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 132.334 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -4530,8 +4776,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 132.334 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.334 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.334 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4556,7 +4825,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 129.794 51.054 0)
 		(unit 1)
 		(body_style 1)
@@ -4566,8 +4835,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25dd9609-789f-4f3c-89e7-04c67e5f906d")
-		(property "Reference" "SW9"
-			(at 129.794 46.482 0)
+		(property "Reference" "SW14"
+			(at 132.842 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4578,8 +4847,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 129.794 46.482 0)
-			(hide yes)
+			(at 129.794 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4588,7 +4856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 129.794 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -4610,8 +4878,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.794 51.054 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4629,7 +4898,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW9")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -4647,8 +4916,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a94d55a-c76c-4cac-b94d-20988e82d02b")
-		(property "Reference" "D12"
-			(at 113.03 74.9299 90)
+		(property "Reference" "D7"
+			(at 113.03 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4660,7 +4929,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 76.1999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4670,7 +4938,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 110.49 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -4692,8 +4960,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4711,14 +5002,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D12")
+					(reference "D7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 118.872 32.766 0)
 		(unit 1)
 		(body_style 1)
@@ -4728,8 +5019,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f95d38e-a03f-4cf7-9731-498d6751a3a3")
-		(property "Reference" "SW3"
-			(at 118.872 27.432 0)
+		(property "Reference" "SW10"
+			(at 121.92 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4740,8 +5031,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 118.872 27.432 0)
-			(hide yes)
+			(at 118.872 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4750,7 +5040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 118.872 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -4772,8 +5062,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 118.872 32.766 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4791,7 +5082,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW3")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -4809,29 +5100,28 @@
 		(dnp no)
 		(uuid "303b52eb-2229-442e-bdef-ad8604aaf819")
 		(property "Reference" "BT1"
-			(at 39.624 119.126 0)
+			(at 35.052 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 28.448 115.316 90)
-			(hide yes)
+			(at 35.052 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PLITKA:JST_PH_reversible"
+		(property "Footprint" ""
 			(at 32.512 119.888 90)
 			(hide yes)
 			(show_name no)
@@ -4853,8 +5143,42 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-cell battery"
 			(at 32.512 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 32.512 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 32.512 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 32.512 121.412 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4880,18 +5204,18 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.29 27.94 0)
+		(at 170.18 29.972 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43035051-17df-4ee6-931b-905cd39262eb")
-		(property "Reference" "MH2"
-			(at 164.338 26.6699 0)
+		(property "Reference" "H2"
+			(at 172.72 28.7019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4902,7 +5226,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.338 29.2099 0)
+			(at 172.72 31.2419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4912,8 +5236,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.29 27.94 0)
+		(property "Footprint" ""
+			(at 170.18 29.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4924,7 +5248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 27.94 0)
+			(at 170.18 29.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,8 +5258,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 27.94 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 29.972 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4947,7 +5272,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "MH2")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4965,8 +5290,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "448e4710-476c-44c5-b0f0-7e27b648e95f")
-		(property "Reference" "D11"
-			(at 101.6 74.9299 90)
+		(property "Reference" "D3"
+			(at 101.6 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4978,7 +5303,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.6 76.1999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4988,7 +5312,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 99.568 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5010,8 +5334,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 99.568 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 99.568 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.568 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5029,7 +5376,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5037,18 +5384,18 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.29 21.59 0)
+		(at 170.18 23.622 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd64f6f-fadd-49ee-8597-dc3eafed6409")
-		(property "Reference" "MH1"
-			(at 164.592 20.3199 0)
+		(property "Reference" "H1"
+			(at 172.72 22.3519 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5059,7 +5406,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.592 22.8599 0)
+			(at 172.72 24.8919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5069,8 +5416,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.29 21.59 0)
+		(property "Footprint" ""
+			(at 170.18 23.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,7 +5428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 21.59 0)
+			(at 170.18 23.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,8 +5438,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 21.59 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 23.622 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5104,7 +5452,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "MH1")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5122,8 +5470,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "549837fd-742e-4acb-9954-b1cc01668088")
-		(property "Reference" "D2"
-			(at 113.03 37.8459 90)
+		(property "Reference" "D5"
+			(at 113.03 36.5759 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5135,7 +5483,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 39.1159 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5145,7 +5492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 110.49 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -5167,8 +5514,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 110.49 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 110.49 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 37.846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5186,7 +5556,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5204,8 +5574,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5729a454-d6c4-4b8e-be24-83cbb093d9a5")
-		(property "Reference" "D15"
-			(at 146.05 74.9299 90)
+		(property "Reference" "D17"
+			(at 146.05 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5217,7 +5587,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 146.05 76.1999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5227,7 +5596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 143.256 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5249,8 +5618,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 143.256 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.256 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.256 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5268,7 +5660,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D15")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -5286,8 +5678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b6b1593-51f1-40c8-89c3-442c47f55797")
-		(property "Reference" "RSW1"
-			(at 175.26 77.216 0)
+		(property "Reference" "SW19"
+			(at 175.26 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5297,7 +5689,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 175.26 79.756 0)
+			(at 175.26 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5306,7 +5698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:ResetSW"
+		(property "Footprint" ""
 			(at 175.26 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5328,8 +5720,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 175.26 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5347,7 +5740,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "RSW1")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -5365,8 +5758,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c0af6dd-f511-42cb-8803-6251b4a90cae")
-		(property "Reference" "D17"
-			(at 113.03 92.7099 90)
+		(property "Reference" "D8"
+			(at 113.03 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5378,7 +5771,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 93.9799 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5388,7 +5780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 110.49 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -5410,8 +5802,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5429,7 +5844,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D17")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5447,8 +5862,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c45332f-0c76-47b8-b137-a6dd1fca1155")
-		(property "Reference" "D8"
-			(at 123.19 56.1339 90)
+		(property "Reference" "D10"
+			(at 123.19 54.8639 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5460,7 +5875,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 123.19 57.4039 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5470,7 +5884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 121.412 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -5492,8 +5906,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 121.412 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.412 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.412 56.134 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5511,7 +5948,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D8")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5966,7 @@
 		(dnp no)
 		(uuid "6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(property "Reference" "JP3"
-			(at 44.958 120.904 0)
+			(at 45.212 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,8 +5976,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.212 119.634 0)
-			(hide yes)
+			(at 45.466 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5549,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Jumper"
+		(property "Footprint" ""
 			(at 45.212 122.174 0)
 			(hide yes)
 			(show_name no)
@@ -5573,6 +6009,7 @@
 		)
 		(property "Description" ""
 			(at 45.212 122.174 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5598,18 +6035,18 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.29 47.498 0)
+		(at 170.18 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71703110-63b8-4119-83da-759c099f6741")
-		(property "Reference" "MH5"
-			(at 164.338 46.2279 0)
+		(property "Reference" "H5"
+			(at 172.72 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5620,7 +6057,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.338 48.7679 0)
+			(at 172.72 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5630,8 +6067,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.29 47.498 0)
+		(property "Footprint" ""
+			(at 170.18 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5642,7 +6079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 47.498 0)
+			(at 170.18 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,8 +6089,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 47.498 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5665,14 +6103,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "MH5")
+					(reference "H5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 118.872 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -5682,8 +6120,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72154ec9-0d68-4d25-a464-427bd5d96a7b")
-		(property "Reference" "SW13"
-			(at 118.872 64.262 0)
+		(property "Reference" "SW12"
+			(at 121.92 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5694,8 +6132,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 118.872 64.262 0)
-			(hide yes)
+			(at 118.872 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5704,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 118.872 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5726,8 +6163,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 118.872 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5745,7 +6183,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW13")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -5763,7 +6201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722e37e5-7ab4-4acb-846d-463ab9d155c6")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR1"
 			(at 56.134 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -5775,7 +6213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.134 132.08 0)
+			(at 56.134 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5806,8 +6244,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 56.134 126.492 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5822,7 +6261,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0112")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -5830,7 +6269,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 68.834 53.34 270)
+		(at 68.58 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5838,10 +6277,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "729e51e2-3a7f-41ae-a57f-2fd79154f794")
-		(property "Reference" "#PWR0102"
-			(at 65.024 53.34 0)
+		(property "Reference" "#PWR5"
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5852,18 +6290,17 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 72.898 53.3399 90)
+			(at 72.136 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.834 53.34 0)
+			(at 68.58 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,7 +6311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.834 53.34 0)
+			(at 68.58 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,8 +6321,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 68.834 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 68.58 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5900,14 +6338,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0102")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 97.028 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -5917,8 +6355,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72debe4c-353b-441e-948e-ae12758310db")
-		(property "Reference" "SW16"
-			(at 97.028 82.042 0)
+		(property "Reference" "SW5"
+			(at 100.076 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5929,8 +6367,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 97.028 82.042 0)
-			(hide yes)
+			(at 97.028 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5939,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 97.028 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5961,8 +6398,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 97.028 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5980,7 +6418,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW16")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5998,8 +6436,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
-		(property "Reference" "D6"
-			(at 101.6 56.1339 90)
+		(property "Reference" "D2"
+			(at 101.6 54.8639 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6011,7 +6449,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.6 57.4039 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6021,7 +6458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 99.568 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -6043,8 +6480,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 99.568 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 99.568 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.568 56.134 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6062,14 +6522,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 129.794 32.766 0)
 		(unit 1)
 		(body_style 1)
@@ -6079,8 +6539,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
-		(property "Reference" "SW4"
-			(at 129.794 27.432 0)
+		(property "Reference" "SW13"
+			(at 132.842 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6091,8 +6551,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 129.794 27.432 0)
-			(hide yes)
+			(at 129.794 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6101,7 +6560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 129.794 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -6123,8 +6582,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.794 32.766 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6142,7 +6602,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW4")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -6150,18 +6610,18 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.29 40.894 0)
+		(at 170.18 42.926 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
-		(property "Reference" "MH4"
-			(at 164.338 39.6239 0)
+		(property "Reference" "H4"
+			(at 172.72 41.6559 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6172,7 +6632,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.338 42.1639 0)
+			(at 172.72 44.1959 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6182,8 +6642,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.29 40.894 0)
+		(property "Footprint" ""
+			(at 170.18 42.926 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +6654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 40.894 0)
+			(at 170.18 42.926 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6204,8 +6664,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 40.894 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 42.926 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6217,7 +6678,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "MH4")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6225,7 +6686,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 65.278 45.72 0)
+		(at 68.58 45.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6233,10 +6694,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ea15999-0781-4c2e-a266-2adaf5a39946")
-		(property "Reference" "#PWR0108"
-			(at 65.278 49.53 0)
+		(property "Reference" "#PWR3"
+			(at 64.77 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,7 +6707,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 65.278 40.894 0)
+			(at 72.136 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6257,7 +6717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.278 45.72 0)
+			(at 68.58 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6268,7 +6728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 65.278 45.72 0)
+			(at 68.58 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6278,8 +6738,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 65.278 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 68.58 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6294,14 +6755,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0108")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 107.95 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6311,8 +6772,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8188caea-8de6-4fbc-a456-b632b8bf6731")
-		(property "Reference" "SW12"
-			(at 107.95 64.262 0)
+		(property "Reference" "SW8"
+			(at 110.998 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6323,8 +6784,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 107.95 64.262 0)
-			(hide yes)
+			(at 107.95 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6333,7 +6793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 107.95 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6355,8 +6815,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 107.95 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6374,85 +6835,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 23.622 53.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85bcaa7a-6063-443d-82ca-89a70cd96c10")
-		(property "Reference" "#PWR0104"
-			(at 17.272 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.558 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 23.622 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 23.622 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 23.622 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d26356d-cd5e-489a-baba-a40a7be93e0f")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0104")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -6470,7 +6853,7 @@
 		(dnp no)
 		(uuid "87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(property "Reference" "JP1"
-			(at 45.212 113.284 0)
+			(at 45.212 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6480,8 +6863,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.212 112.014 0)
-			(hide yes)
+			(at 45.466 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6490,7 +6872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Jumper"
+		(property "Footprint" ""
 			(at 45.212 114.554 0)
 			(hide yes)
 			(show_name no)
@@ -6514,6 +6896,7 @@
 		)
 		(property "Description" ""
 			(at 45.212 114.554 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6548,8 +6931,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bb89a93-d7e1-42e7-b46e-e080be939965")
-		(property "Reference" "SW1"
-			(at 97.028 27.432 0)
+		(property "Reference" "SW2"
+			(at 100.076 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6560,8 +6943,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 97.028 27.432 0)
-			(hide yes)
+			(at 97.028 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6570,7 +6952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 97.028 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -6592,8 +6974,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 97.028 32.766 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6611,7 +6994,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6629,8 +7012,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d69ffcf-0145-4967-ad3d-625d583744bf")
-		(property "Reference" "D16"
-			(at 101.6 92.7099 90)
+		(property "Reference" "D4"
+			(at 101.6 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6642,7 +7025,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.6 93.9799 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6652,7 +7034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 99.568 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -6674,8 +7056,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 99.568 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 99.568 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.568 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6693,14 +7098,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D16")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 140.716 51.054 0)
 		(unit 1)
 		(body_style 1)
@@ -6710,8 +7115,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92fbf0cb-13a5-442a-a697-7d0064a38422")
-		(property "Reference" "SW10"
-			(at 140.716 46.482 0)
+		(property "Reference" "SW17"
+			(at 143.764 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6722,8 +7127,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 140.716 46.482 0)
-			(hide yes)
+			(at 140.716 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6732,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 140.716 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -6754,8 +7158,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 140.716 51.054 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6773,14 +7178,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW10")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 140.716 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6790,8 +7195,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f6aa6fa-3191-4b10-803e-e75e33001f85")
-		(property "Reference" "SW15"
-			(at 140.716 64.262 0)
+		(property "Reference" "SW18"
+			(at 143.764 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6802,8 +7207,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 140.716 64.262 0)
-			(hide yes)
+			(at 140.716 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6812,7 +7216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 140.716 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6834,8 +7238,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 140.716 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6853,14 +7258,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW15")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 97.028 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6870,8 +7275,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0689e1b-8703-4a10-927c-caf698818cb2")
-		(property "Reference" "SW11"
-			(at 97.028 64.262 0)
+		(property "Reference" "SW4"
+			(at 100.076 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6882,8 +7287,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 97.028 64.262 0)
-			(hide yes)
+			(at 97.028 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6892,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 97.028 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6914,8 +7318,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 97.028 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6933,7 +7338,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW11")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6951,8 +7356,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
-		(property "Reference" "D4"
-			(at 134.62 37.8459 90)
+		(property "Reference" "D12"
+			(at 134.62 36.5759 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6964,7 +7369,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 134.62 39.1159 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6974,7 +7378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 132.334 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -6996,8 +7400,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 132.334 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.334 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.334 37.846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7015,14 +7442,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D4")
+					(reference "D12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 107.95 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -7032,8 +7459,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9980814-ca5f-4ba5-922a-1a504b5f4f96")
-		(property "Reference" "SW17"
-			(at 107.95 82.042 0)
+		(property "Reference" "SW9"
+			(at 110.998 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7044,8 +7471,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 107.95 82.042 0)
-			(hide yes)
+			(at 107.95 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7054,7 +7480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7076,8 +7502,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 107.95 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7095,14 +7522,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW17")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 107.95 51.054 0)
 		(unit 1)
 		(body_style 1)
@@ -7113,7 +7540,7 @@
 		(dnp no)
 		(uuid "aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(property "Reference" "SW7"
-			(at 107.95 46.482 0)
+			(at 110.998 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7124,8 +7551,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 107.95 46.482 0)
-			(hide yes)
+			(at 107.95 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7134,7 +7560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 107.95 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -7156,8 +7582,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 107.95 51.054 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7193,8 +7620,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51804ed-dff9-4f3e-a403-4b992f5ceee6")
-		(property "Reference" "D3"
-			(at 123.19 37.8459 90)
+		(property "Reference" "D9"
+			(at 123.19 36.5759 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7206,7 +7633,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 123.19 39.1159 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7216,7 +7642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 121.412 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -7238,8 +7664,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 121.412 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.412 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.412 37.846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7257,7 +7706,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7273,9 +7722,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c516236d-7229-4a01-a069-eb1adad5e9b6")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR4"
 			(at 74.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7287,14 +7735,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.898 48.2599 90)
+			(at 72.39 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7319,8 +7766,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7335,7 +7783,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0103")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -7352,8 +7800,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8fe5627-c989-4033-8547-ad4fffbf385d")
-		(property "Reference" "PSW1"
-			(at 61.214 124.714 0)
+		(property "Reference" "SW1"
+			(at 61.214 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7363,8 +7811,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 61.214 115.062 0)
-			(hide yes)
+			(at 61.214 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7373,7 +7820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:MSK12C02_reversible"
+		(property "Footprint" ""
 			(at 61.214 120.142 0)
 			(hide yes)
 			(show_name no)
@@ -7395,8 +7842,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 61.214 120.142 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7426,14 +7874,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "PSW1")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 129.794 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7443,8 +7891,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cafe9b5c-8d4c-4967-a3f1-359d5108b504")
-		(property "Reference" "SW14"
-			(at 129.794 64.262 0)
+		(property "Reference" "SW15"
+			(at 132.842 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7455,8 +7903,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 129.794 64.262 0)
-			(hide yes)
+			(at 129.794 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7465,7 +7912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 129.794 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7487,8 +7934,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.794 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7506,15 +7954,15 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW14")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "kbd:ProMicro")
-		(at 43.18 59.69 0)
+		(lib_id "PLITKA:nice_nano")
+		(at 44.45 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7522,10 +7970,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(property "Reference" "U1"
-			(at 43.18 37.592 0)
+			(at 32.258 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7535,7 +7982,7 @@
 			)
 		)
 		(property "Value" "nice!nano"
-			(at 43.18 41.402 0)
+			(at 37.084 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7544,8 +7991,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:ProMicro_v2"
-			(at 45.72 86.36 0)
+		(property "Footprint" "PLITKA:nice_nano"
+			(at 43.942 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7556,7 +8003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 86.36 0)
+			(at 46.99 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7566,7 +8013,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 59.69 0)
+			(at 44.45 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7587,16 +8035,16 @@
 		(pin "12"
 			(uuid "846f2c13-278f-48b2-82e1-5d1c7211b810")
 		)
-		(pin "13"
+		(pin "23"
 			(uuid "9142d486-e32b-4796-a096-75df121dabe4")
 		)
 		(pin "14"
 			(uuid "86710698-fe04-4974-a288-a6755bed83ea")
 		)
-		(pin "15"
+		(pin "26"
 			(uuid "77e86716-e30e-4eaa-86cb-8fabac29db1e")
 		)
-		(pin "16"
+		(pin "25"
 			(uuid "6fe4240e-9f2b-4a2a-9d53-90cab6dd4fef")
 		)
 		(pin "17"
@@ -7614,16 +8062,16 @@
 		(pin "20"
 			(uuid "821e3b30-b18e-48ff-9cf5-602d87225959")
 		)
-		(pin "21"
+		(pin "24"
 			(uuid "a60ced42-3019-42db-8ef0-748095094599")
 		)
-		(pin "22"
+		(pin "15"
 			(uuid "28b25e90-c901-4f6e-b440-2cfbfaa4d3a8")
 		)
-		(pin "23"
+		(pin "21"
 			(uuid "22a04814-b986-4340-9ce8-b5aee94c5d15")
 		)
-		(pin "24"
+		(pin "22"
 			(uuid "028e0ac2-5c9c-4dba-81c9-3a4daf3cfb60")
 		)
 		(pin "3"
@@ -7647,6 +8095,21 @@
 		(pin "9"
 			(uuid "f55b5ac1-c150-406f-8702-f3742b0d594b")
 		)
+		(pin "13"
+			(uuid "37823c83-3066-484d-91bb-d012e838049e")
+		)
+		(pin "16"
+			(uuid "102692ba-7b83-47cd-9fc0-33e83ace8652")
+		)
+		(pin "28"
+			(uuid "9a2c5621-7a6b-448e-a47a-7bc24f4211fd")
+		)
+		(pin "29"
+			(uuid "b973bf61-788b-449d-84d1-aef6bb10f4fd")
+		)
+		(pin "27"
+			(uuid "21e62e9d-53c4-4c2b-8d2a-5e2c50b23a2a")
+		)
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
@@ -7668,7 +8131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8f30b02-7baf-4e33-a818-4a0fb6edca4b")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR2"
 			(at 56.388 106.172 0)
 			(hide yes)
 			(show_name no)
@@ -7680,14 +8143,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.182 111.2519 0)
+			(at 56.388 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7712,8 +8174,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 56.388 112.522 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7728,7 +8191,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0113")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -7746,8 +8209,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df35e296-ea0f-4574-b225-3389ca777371")
-		(property "Reference" "D13"
-			(at 123.19 74.9299 90)
+		(property "Reference" "D11"
+			(at 123.19 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7759,7 +8222,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 123.19 76.1999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7769,7 +8231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 121.412 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -7791,8 +8253,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 121.412 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.412 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.412 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7810,7 +8295,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D13")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7828,8 +8313,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfaaaff2-7538-49e3-9b6b-4e76a547a158")
-		(property "Reference" "D10"
-			(at 146.05 56.1339 90)
+		(property "Reference" "D16"
+			(at 146.05 54.8639 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7841,7 +8326,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 146.05 57.4039 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7851,7 +8335,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 143.256 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -7873,8 +8357,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 143.256 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.256 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.256 56.134 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7892,7 +8399,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D10")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -7909,8 +8416,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2ceac69-a5d5-462f-b8e7-24123de35429")
-		(property "Reference" "SW2"
-			(at 107.95 27.432 0)
+		(property "Reference" "SW6"
+			(at 110.998 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7921,8 +8428,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 107.95 27.432 0)
-			(hide yes)
+			(at 107.95 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7931,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 107.95 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -7953,8 +8459,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 107.95 32.766 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7972,14 +8479,14 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW2")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PLITKA:MX_SW_HS")
 		(at 97.028 51.054 0)
 		(unit 1)
 		(body_style 1)
@@ -7989,8 +8496,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
-		(property "Reference" "SW6"
-			(at 97.028 46.482 0)
+		(property "Reference" "SW3"
+			(at 100.076 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8001,8 +8508,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 97.028 46.482 0)
-			(hide yes)
+			(at 97.028 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8011,7 +8517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
 			(at 97.028 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -8033,8 +8539,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 97.028 51.054 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8052,7 +8559,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW6")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8070,8 +8577,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e65964e6-27db-4a93-b492-71879cc4fcc1")
-		(property "Reference" "D5"
-			(at 146.05 37.8459 90)
+		(property "Reference" "D15"
+			(at 146.05 36.5759 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8083,7 +8590,6 @@
 		)
 		(property "Value" "D_Small"
 			(at 146.05 39.1159 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8093,7 +8599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PLITKA:Diode_SOD123"
+		(property "Footprint" ""
 			(at 143.256 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -8115,8 +8621,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 143.256 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.256 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.256 37.846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8134,7 +8663,7 @@
 		(instances
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D5")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -8152,7 +8681,7 @@
 		(dnp no)
 		(uuid "e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(property "Reference" "JP4"
-			(at 45.212 127.508 0)
+			(at 45.212 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8162,8 +8691,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.212 123.19 0)
-			(hide yes)
+			(at 45.466 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8172,7 +8700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Jumper"
+		(property "Footprint" ""
 			(at 45.212 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8196,6 +8724,7 @@
 		)
 		(property "Description" ""
 			(at 45.212 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8231,7 +8760,7 @@
 		(dnp no)
 		(uuid "ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(property "Reference" "JP2"
-			(at 45.212 119.38 0)
+			(at 45.212 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8241,8 +8770,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.212 115.57 0)
-			(hide yes)
+			(at 45.466 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8251,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Jumper"
+		(property "Footprint" ""
 			(at 45.212 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8275,6 +8803,7 @@
 		)
 		(property "Description" ""
 			(at 45.212 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
