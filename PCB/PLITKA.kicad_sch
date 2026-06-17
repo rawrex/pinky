@@ -4991,7 +4991,8 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 35.052 121.412 0)
+			(at 24.384 125.476 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5857,6 +5858,7 @@
 		)
 		(property "Value" "Device_Jumper_NO_Small"
 			(at 45.466 123.698 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6743,7 +6745,8 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.466 116.078 0)
+			(at 39.878 107.696 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8557,6 +8560,7 @@
 		)
 		(property "Value" "Device_Jumper_NO_Small"
 			(at 45.466 127.254 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8636,6 +8640,7 @@
 		)
 		(property "Value" "Device_Jumper_NO_Small"
 			(at 45.466 119.634 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
