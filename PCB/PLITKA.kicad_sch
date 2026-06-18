@@ -2549,6 +2549,12 @@
 		(uuid "148f8a95-60bf-48d7-8b24-0123b0453848")
 	)
 	(junction
+		(at 76.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16fe79a5-ec61-46bb-b256-6a815d82e59c")
+	)
+	(junction
 		(at 110.49 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2609,13 +2615,7 @@
 		(uuid "6216c961-9844-49ba-91ba-a21f24a6bfc1")
 	)
 	(junction
-		(at 50.8 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "621c5069-9a3c-4f73-9c0a-f2cf41ab0636")
-	)
-	(junction
-		(at 40.64 124.46)
+		(at 40.64 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f7c3373-ce66-4a37-b0da-9b933d1e7d2b")
@@ -2657,6 +2657,12 @@
 		(uuid "b4956055-e5b8-4594-acfe-25c5cb382de7")
 	)
 	(junction
+		(at 50.8 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b85ec986-d038-4c2e-9893-5aa5f375f0da")
+	)
+	(junction
 		(at 116.84 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2685,6 +2691,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd8f4f72-62e5-4de7-a35d-c415210a96b7")
+	)
+	(junction
+		(at 59.69 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e05703d9-8023-4b44-9b0c-5598259d38b5")
 	)
 	(junction
 		(at 116.84 30.48)
@@ -2729,16 +2741,16 @@
 		(uuid "1319e85f-5550-4023-85b0-c43051843c5d")
 	)
 	(no_connect
+		(at 69.85 124.46)
+		(uuid "3016c6a1-16a9-428a-9392-da5eca4aed1f")
+	)
+	(no_connect
 		(at 64.77 68.58)
 		(uuid "363b00bc-a32a-47f0-a640-0e903e8371ef")
 	)
 	(no_connect
 		(at 24.13 48.26)
 		(uuid "43d14c8b-195f-42bd-9fee-026399b10642")
-	)
-	(no_connect
-		(at 66.04 118.11)
-		(uuid "5796774c-ec21-45b9-a18c-d89cb4a62a8d")
 	)
 	(no_connect
 		(at 64.77 58.42)
@@ -2755,6 +2767,10 @@
 	(no_connect
 		(at 24.13 50.8)
 		(uuid "b863fc63-a1b0-49fb-b6ed-fe6f79b48f0e")
+	)
+	(no_connect
+		(at 69.85 113.03)
+		(uuid "d51baf30-9f95-455f-b227-673a197e327d")
 	)
 	(no_connect
 		(at 24.13 45.72)
@@ -2780,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 125.73) (xy 55.88 125.73)
+			(xy 48.26 127) (xy 55.88 127)
 		)
 		(stroke
 			(width 0)
@@ -2820,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 118.11) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2a06fa-2b1c-4b70-bc2c-971a5d8d7af1")
+	)
+	(wire
+		(pts
 			(xy 40.64 118.11) (xy 43.18 118.11)
 		)
 		(stroke
@@ -2830,7 +2856,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 43.18 121.92)
+			(xy 40.64 123.19) (xy 43.18 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2860,13 +2886,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 124.46) (xy 40.64 124.46)
+			(xy 33.02 125.73) (xy 40.64 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22ee75c3-b672-425f-852b-44ac286198e7")
+	)
+	(wire
+		(pts
+			(xy 59.69 120.65) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23185aee-2b52-4e2c-8aeb-b6f195e3a261")
 	)
 	(wire
 		(pts
@@ -2910,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 121.92) (xy 50.8 121.92)
+			(xy 48.26 123.19) (xy 50.8 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2920,13 +2956,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46) (xy 40.64 121.92)
+			(xy 40.64 125.73) (xy 40.64 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f57029f-39f2-4186-9c79-c459e869aa87")
+	)
+	(wire
+		(pts
+			(xy 76.2 129.54) (xy 69.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aae9e24-868d-4ad0-9948-dd0863bc86cd")
 	)
 	(polyline
 		(pts
@@ -3000,6 +3046,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 118.11) (xy 50.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb029a7-810e-4b81-9d59-0f3e090fbdde")
+	)
+	(wire
+		(pts
 			(xy 116.84 48.26) (xy 116.84 67.31)
 		)
 		(stroke
@@ -3017,26 +3073,6 @@
 			(type default)
 		)
 		(uuid "6a1334fd-a9ee-4a6a-a26b-af115f47a2f0")
-	)
-	(wire
-		(pts
-			(xy 69.85 123.19) (xy 69.85 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e2190a8-0a8f-4569-8c96-006456c6e6b2")
-	)
-	(wire
-		(pts
-			(xy 66.04 123.19) (xy 69.85 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6faf24c9-afc6-43f9-9326-68c5c2ccabec")
 	)
 	(wire
 		(pts
@@ -3060,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 55.88 120.65)
+			(xy 50.8 120.65) (xy 59.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3106,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 125.73) (xy 40.64 125.73)
+			(xy 33.02 125.73) (xy 33.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7945e6b3-168a-4963-80cf-49926bd1e9f9")
+	)
+	(wire
+		(pts
+			(xy 43.18 127) (xy 40.64 127)
 		)
 		(stroke
 			(width 0)
@@ -3120,6 +3166,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 123.19) (xy 76.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90262c5e-5ce8-40b4-8b65-8b3a38057f70")
+	)
+	(wire
+		(pts
 			(xy 127 30.48) (xy 127 48.26)
 		)
 		(stroke
@@ -3130,13 +3186,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 125.73) (xy 40.64 124.46)
+			(xy 40.64 127) (xy 40.64 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "919d3878-c5cf-4524-a807-3d621e2481e4")
+	)
+	(wire
+		(pts
+			(xy 76.2 123.19) (xy 76.2 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fe88b1-fe47-47b7-97c7-ca8892eb587a")
 	)
 	(wire
 		(pts
@@ -3177,16 +3243,6 @@
 			(type default)
 		)
 		(uuid "a2aa6939-8ffb-4f86-99d6-a7e4887e853a")
-	)
-	(wire
-		(pts
-			(xy 50.8 118.11) (xy 48.26 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c553cd-b54a-4ac1-8131-96f391d6672d")
 	)
 	(wire
 		(pts
@@ -3240,6 +3296,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 115.57) (xy 59.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34a09c8-3384-4cda-b6d4-75021dc7fe01")
+	)
+	(wire
+		(pts
 			(xy 132.08 58.42) (xy 143.51 58.42)
 		)
 		(stroke
@@ -3260,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 125.73) (xy 55.88 127)
+			(xy 55.88 127) (xy 55.88 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3290,6 +3356,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 123.19) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70d15c9-48e6-40db-9b9e-42ab94500a03")
+	)
+	(wire
+		(pts
 			(xy 132.08 77.47) (xy 143.51 77.47)
 		)
 		(stroke
@@ -3300,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 50.8 121.92)
+			(xy 50.8 120.65) (xy 50.8 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3445,7 @@
 		(uuid "f927d46c-63df-4fc8-bc75-3ed69e9e092a")
 	)
 	(label "PAD2"
-		(at 34.29 124.46 0)
+		(at 34.29 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4292,7 +4368,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 69.85 120.65 0)
+		(at 77.47 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4302,7 +4378,7 @@
 		(dnp no)
 		(uuid "141f259a-1a56-46aa-bae6-6be390066d37")
 		(property "Reference" "#PWR6"
-			(at 69.85 124.46 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4389,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 69.85 117.094 0)
+			(at 81.026 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4323,7 +4399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 120.65 0)
+			(at 77.47 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 120.65 0)
+			(at 77.47 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 69.85 120.65 0)
+			(at 77.47 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,7 +6055,7 @@
 	)
 	(symbol
 		(lib_id "PLITKA:Device_Jumper_NO_Small")
-		(at 45.72 121.92 0)
+		(at 45.72 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5989,7 +6065,7 @@
 		(dnp no)
 		(uuid "6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(property "Reference" "JP3"
-			(at 45.72 119.888 0)
+			(at 45.72 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5999,7 +6075,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.974 123.444 0)
+			(at 45.974 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +6086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 121.92 0)
+			(at 45.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6021,7 +6097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 121.92 0)
+			(at 45.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6032,7 +6108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 121.92 0)
+			(at 45.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +6292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 127 0)
+		(at 55.88 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6227,7 +6303,7 @@
 		(fields_autoplaced yes)
 		(uuid "722e37e5-7ab4-4acb-846d-463ab9d155c6")
 		(property "Reference" "#PWR1"
-			(at 55.88 133.35 0)
+			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,7 +6314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 131.318 0)
+			(at 55.88 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6248,7 +6324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 127 0)
+			(at 55.88 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +6335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 127 0)
+			(at 55.88 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,7 +6346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 127 0)
+			(at 55.88 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7753,8 +7829,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 60.96 120.65 0)
-		(unit 1)
+		(at 64.77 115.57 0)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7763,7 +7839,7 @@
 		(dnp no)
 		(uuid "c8fe5627-c989-4033-8547-ad4fffbf385d")
 		(property "Reference" "SW1"
-			(at 60.96 115.57 0)
+			(at 64.77 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7773,7 +7849,8 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 60.96 125.73 0)
+			(at 64.77 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7783,7 +7860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 120.65 0)
+			(at 64.77 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +7871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 120.65 0)
+			(at 64.77 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +7882,99 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 60.96 120.65 0)
+			(at 64.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71c1c0d5-f1bf-48d8-8140-9ad52ad7ff22")
+		)
+		(pin "2"
+			(uuid "22da1e46-9ac3-4249-80c4-fd68adce328b")
+		)
+		(pin "3"
+			(uuid "6a265f88-6ac7-4ab4-a299-b4d0e8bbc941")
+		)
+		(pin "4"
+			(uuid "0a5610bb-d01a-4417-8271-dc424dd2c838")
+		)
+		(pin "5"
+			(uuid "e4504518-96e7-4c9e-8457-7273f5a490f1")
+		)
+		(pin "6"
+			(uuid "42ecdba3-f348-4384-8d4b-cd21e56f3613")
+		)
+		(instances
+			(project "PLITKA"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "SW1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 64.77 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8fe5627-c989-4033-8547-ad4fffbf385d")
+		(property "Reference" "SW1"
+			(at 64.77 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 64.77 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8624,7 +8793,7 @@
 	)
 	(symbol
 		(lib_id "PLITKA:Device_Jumper_NO_Small")
-		(at 45.72 125.73 0)
+		(at 45.72 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8634,7 +8803,7 @@
 		(dnp no)
 		(uuid "e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(property "Reference" "JP4"
-			(at 45.72 123.698 0)
+			(at 45.72 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8644,7 +8813,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.974 127.254 0)
+			(at 45.974 128.524 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,7 +8824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 125.73 0)
+			(at 45.72 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,7 +8835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 125.73 0)
+			(at 45.72 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +8846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 125.73 0)
+			(at 45.72 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
