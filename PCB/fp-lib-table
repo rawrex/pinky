@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "Pinky")(type "KiCad")(uri "${KIPRJMOD}/Pinky.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "Pinky") (type "KiCad") (uri "${KIPRJMOD}/Pinky.pretty") (options "") (descr ""))
 )
