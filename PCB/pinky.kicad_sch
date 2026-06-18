@@ -5,7 +5,7 @@
 	(uuid "231ead31-262f-44fe-a25c-f58d2465dcca")
 	(paper "A5")
 	(title_block
-		(title "PLITKA keyboard")
+		(title "Pinky keyboard")
 		(date "12/06/2026")
 		(rev "0.1")
 		(comment 1 "Author: rawrex")
@@ -524,7 +524,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PLITKA:Device_Jumper_NO_Small"
+		(symbol "Pinky:Device_Jumper_NO_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -663,7 +663,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PLITKA:MX_SW_HS"
+		(symbol "Pinky:MX_SW_HS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -697,7 +697,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+			(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -851,7 +851,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PLITKA:nice_nano"
+		(symbol "Pinky:nice_nano"
 			(pin_names
 				(offset 1.016)
 			)
@@ -880,7 +880,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PLITKA:nice_nano"
+			(property "Footprint" "Pinky:nice_nano"
 				(at 10.668 18.034 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2147,7 +2147,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+			(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4129,7 +4129,7 @@
 			(uuid "53d2c666-5203-43d1-bc03-690da23d2b07")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#PWR7")
 					(unit 1)
@@ -4205,7 +4205,7 @@
 			)
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "H3")
 					(unit 1)
@@ -4214,7 +4214,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 119.38 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4246,7 +4246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 119.38 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4286,7 +4286,7 @@
 			(uuid "6edff8e3-b4b6-4511-937c-368729718525")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW11")
 					(unit 1)
@@ -4391,7 +4391,7 @@
 			(uuid "305456d7-1fb8-47b0-80f8-61f33b2371b1")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D6")
 					(unit 1)
@@ -4400,7 +4400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 140.97 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -4432,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 140.97 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4472,7 +4472,7 @@
 			(uuid "8f2bd3f8-3129-4148-b8f8-2525d2bf90cd")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW16")
 					(unit 1)
@@ -4549,7 +4549,7 @@
 			(uuid "7aeda96c-46b8-4006-b414-502a4fefdd07")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#PWR6")
 					(unit 1)
@@ -4654,7 +4654,7 @@
 			(uuid "33075244-1f88-400b-984e-bd94ba5ac55e")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D13")
 					(unit 1)
@@ -4759,7 +4759,7 @@
 			(uuid "abfca513-4a02-4652-a029-ae707b4d4a97")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D1")
 					(unit 1)
@@ -4864,7 +4864,7 @@
 			(uuid "80ada0d9-e7f7-441c-bedf-bed3cd288d65")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D14")
 					(unit 1)
@@ -4873,7 +4873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 129.54 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4905,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 129.54 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4945,7 +4945,7 @@
 			(uuid "c822e787-2369-420f-b4a1-828770ad39c0")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW14")
 					(unit 1)
@@ -5050,7 +5050,7 @@
 			(uuid "51d7cf8e-fafa-4c9c-9d91-ae326b283a0b")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D7")
 					(unit 1)
@@ -5090,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:MSK12C02_reversible"
+		(property "Footprint" "Pinky:MSK12C02_reversible"
 			(at 59.69 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5133,7 +5133,7 @@
 			(uuid "38d9415a-1e83-4258-b1bd-d84a7654eff0")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW1")
 					(unit 1)
@@ -5142,7 +5142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 119.38 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -5174,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5214,7 @@
 			(uuid "00a5446f-7343-4d8b-8eb0-a72479c04585")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW10")
 					(unit 1)
@@ -5329,7 +5329,7 @@
 			(uuid "a9b4a49f-1c06-4ece-bef0-0997a3b93b9e")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "BT1")
 					(unit 1)
@@ -5408,7 +5408,7 @@
 			(uuid "c7f9702e-61ee-4561-a035-64bd4e901140")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#FLG02")
 					(unit 1)
@@ -5484,7 +5484,7 @@
 			)
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "H2")
 					(unit 1)
@@ -5589,7 +5589,7 @@
 			(uuid "de3459e0-a7ed-4a70-9075-72340b2b94c2")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D3")
 					(unit 1)
@@ -5666,7 +5666,7 @@
 			(uuid "ea2ef9a4-930d-4b90-a397-efa03b1162ae")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#FLG01")
 					(unit 1)
@@ -5742,7 +5742,7 @@
 			)
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "H1")
 					(unit 1)
@@ -5847,7 +5847,7 @@
 			(uuid "6e2c390e-e80d-416d-8658-0c18ed772338")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D5")
 					(unit 1)
@@ -5952,7 +5952,7 @@
 			(uuid "baeefdeb-9e12-4034-94fa-58102201e179")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D17")
 					(unit 1)
@@ -6032,7 +6032,7 @@
 			(uuid "5b1d34c9-31f1-47ef-8c85-a05894613342")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW19")
 					(unit 1)
@@ -6137,7 +6137,7 @@
 			(uuid "cd2e4f8e-a64f-4bcd-977c-95684ed715b8")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D8")
 					(unit 1)
@@ -6242,7 +6242,7 @@
 			(uuid "24937940-82c3-4610-81ca-c029e2bfae2c")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D10")
 					(unit 1)
@@ -6251,7 +6251,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:Device_Jumper_NO_Small")
+		(lib_id "Pinky:Device_Jumper_NO_Small")
 		(at 45.72 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -6322,7 +6322,7 @@
 			(uuid "43529f18-6f3f-4adb-964f-bf6e8c5f61bf")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "JP3")
 					(unit 1)
@@ -6398,7 +6398,7 @@
 			)
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "H5")
 					(unit 1)
@@ -6407,7 +6407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 119.38 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6439,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 119.38 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6479,7 +6479,7 @@
 			(uuid "8cd23695-820c-4703-895c-cae50abeae74")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW12")
 					(unit 1)
@@ -6557,7 +6557,7 @@
 			(uuid "a0ff9b33-8447-43db-8ed4-cbd4e8dec3cc")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#PWR1")
 					(unit 1)
@@ -6566,7 +6566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 96.52 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -6598,7 +6598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 96.52 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6638,7 +6638,7 @@
 			(uuid "c62750fd-7196-4e29-8eb3-107e976e7f68")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW5")
 					(unit 1)
@@ -6743,7 +6743,7 @@
 			(uuid "d634c9fb-727b-40f0-92e4-029040124a0e")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D2")
 					(unit 1)
@@ -6752,7 +6752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 129.54 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -6784,7 +6784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6824,7 +6824,7 @@
 			(uuid "c61344dd-e6cb-49e9-ad48-3125cdeb3c56")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW13")
 					(unit 1)
@@ -6900,7 +6900,7 @@
 			)
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "H4")
 					(unit 1)
@@ -6977,7 +6977,7 @@
 			(uuid "500298f6-b9ed-4e53-bde6-024545f1a90a")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#PWR3")
 					(unit 1)
@@ -6986,7 +6986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 107.95 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7018,7 +7018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7058,7 +7058,7 @@
 			(uuid "fe371a4a-3e1a-4dd9-8e50-8966dab8773e")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW8")
 					(unit 1)
@@ -7067,7 +7067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:Device_Jumper_NO_Small")
+		(lib_id "Pinky:Device_Jumper_NO_Small")
 		(at 45.72 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -7138,7 +7138,7 @@
 			(uuid "4be806f3-0d43-479d-9e6b-cd51d613ae89")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "JP1")
 					(unit 1)
@@ -7147,7 +7147,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 96.52 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -7179,7 +7179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 96.52 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7219,7 +7219,7 @@
 			(uuid "6c6d5685-a1b1-4c15-a077-583fa91ccd3a")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW2")
 					(unit 1)
@@ -7324,7 +7324,7 @@
 			(uuid "4645ef0d-02eb-43a6-a552-6ed837f28b94")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D4")
 					(unit 1)
@@ -7333,7 +7333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 140.97 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -7365,7 +7365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 140.97 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7405,7 +7405,7 @@
 			(uuid "9d8ddbda-f58e-4ad3-b147-275d6366b0f2")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW17")
 					(unit 1)
@@ -7414,7 +7414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 140.97 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7446,7 +7446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 140.97 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7486,7 +7486,7 @@
 			(uuid "33a6297d-8fe6-40a4-8279-a3b9577bf947")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW18")
 					(unit 1)
@@ -7495,7 +7495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 96.52 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7527,7 +7527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7567,7 +7567,7 @@
 			(uuid "d9f2e905-80cf-4b03-a045-c60d8d71b8d4")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW4")
 					(unit 1)
@@ -7672,7 +7672,7 @@
 			(uuid "6427a8e4-af83-4772-a820-6355f05f758e")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D12")
 					(unit 1)
@@ -7681,7 +7681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 107.95 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -7713,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7753,7 +7753,7 @@
 			(uuid "47e86dfc-bae8-4a9e-a792-2977d95cd05c")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW9")
 					(unit 1)
@@ -7762,7 +7762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 107.95 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -7794,7 +7794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7834,7 +7834,7 @@
 			(uuid "53d0434d-11b1-4d99-818e-996177658b52")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW7")
 					(unit 1)
@@ -7939,7 +7939,7 @@
 			(uuid "b8cc17c9-e5ce-495d-a67f-73debb188808")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D9")
 					(unit 1)
@@ -8016,7 +8016,7 @@
 			(uuid "403c555b-fca8-4f77-9e39-a3d61c326b53")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#PWR4")
 					(unit 1)
@@ -8025,7 +8025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 129.54 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -8057,7 +8057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 129.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8097,7 @@
 			(uuid "1b4648de-ba08-452c-9796-ec66093c9419")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW15")
 					(unit 1)
@@ -8106,7 +8106,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:nice_nano")
+		(lib_id "Pinky:nice_nano")
 		(at 44.45 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -8136,7 +8136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:nice_nano"
+		(property "Footprint" "Pinky:nice_nano"
 			(at 40.386 36.068 0)
 			(hide yes)
 			(show_name no)
@@ -8241,7 +8241,7 @@
 			(uuid "102692ba-7b83-47cd-9fc0-33e83ace8652")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "U1")
 					(unit 1)
@@ -8319,7 +8319,7 @@
 			(uuid "6fdcaf21-5e76-4f70-850a-57a8d59ff089")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#PWR2")
 					(unit 1)
@@ -8424,7 +8424,7 @@
 			(uuid "08947efe-e8a9-49ef-addc-ad78aab50dff")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D11")
 					(unit 1)
@@ -8529,7 +8529,7 @@
 			(uuid "ca9e7d43-56c1-44ec-9634-5363c58067c6")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D16")
 					(unit 1)
@@ -8538,7 +8538,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 107.95 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -8570,7 +8570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8610,7 +8610,7 @@
 			(uuid "6d9f14e6-2d7a-48b9-b0c8-d5c38de97c3a")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW6")
 					(unit 1)
@@ -8619,7 +8619,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:MX_SW_HS")
+		(lib_id "Pinky:MX_SW_HS")
 		(at 96.52 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -8651,7 +8651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
 			(at 96.52 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8691,7 +8691,7 @@
 			(uuid "9d1128d2-431d-4b09-b812-8d0a32ce5091")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW3")
 					(unit 1)
@@ -8796,7 +8796,7 @@
 			(uuid "ec1e9f00-5ee4-47be-a800-a46250b4d733")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D15")
 					(unit 1)
@@ -8805,7 +8805,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PLITKA:Device_Jumper_NO_Small")
+		(lib_id "Pinky:Device_Jumper_NO_Small")
 		(at 45.72 127 0)
 		(unit 1)
 		(body_style 1)
@@ -8876,7 +8876,7 @@
 			(uuid "6f41a869-2001-4f54-8a3d-0f31f71bb1ae")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "JP4")
 					(unit 1)
@@ -8956,7 +8956,7 @@
 			(uuid "6b92af59-7ff8-40b4-bf44-95fc66b1f37b")
 		)
 		(instances
-			(project "PLITKA"
+			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "JP2")
 					(unit 1)

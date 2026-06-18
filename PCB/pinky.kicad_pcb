@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "PLITKA split keyboard")
+		(title "Pinky split keyboard")
 		(date "2022-07-03")
 		(rev "0.2")
 		(comment 1 "Author: GEIST")
@@ -20,14 +20,14 @@
 		(2 "B.Cu" signal "Back")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
-		(5 "F.SilkS" user)
-		(7 "B.SilkS" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
-		(31 "F.CrtYd" user)
-		(29 "B.CrtYd" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 	)
 	(setup
@@ -109,7 +109,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -147,7 +146,7 @@
 			(outputdirectory "GERBERS/PCB/")
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "09856c5e-5ceb-4b0a-8d52-2b23e3832111")
@@ -205,7 +204,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a432e32-e05b-4106-8390-d100463d2c9f")
+			(uuid "ab64d158-c4ba-499e-a3b6-57cf4e7b070d")
 			(effects
 				(font
 					(size 1 1)
@@ -218,7 +217,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45515b1c-e8a9-4573-b947-5920313205be")
+			(uuid "ab9fe3e9-cbb8-4553-a87c-e3ca876d7f40")
 			(effects
 				(font
 					(size 1 1)
@@ -229,7 +228,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -353,7 +352,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "0e31cf47-dbaa-40ed-8a40-477733b392b9")
@@ -411,7 +410,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "163fe209-2993-4618-9015-521f1df3d530")
+			(uuid "b0110f27-5505-41fe-b9fc-120d85a65ee0")
 			(effects
 				(font
 					(size 1 1)
@@ -424,7 +423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcc788c5-08a8-4749-8217-61e990a0fd0c")
+			(uuid "a4dd31bd-cc84-4567-b7fd-0f33edde2ae0")
 			(effects
 				(font
 					(size 1 1)
@@ -435,7 +434,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -559,7 +558,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Jumper"
+	(footprint "Pinky:Jumper"
 		(layer "F.Cu")
 		(uuid "0f3f378e-d0c9-46ab-963e-646a851063aa")
 		(at 167.52538 129.25)
@@ -612,7 +611,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -696,7 +695,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "11248316-1649-4ef0-a05e-b89072466bc8")
 		(at 152.944862 58.365117)
@@ -749,7 +748,7 @@
 		)
 		(path "/2f95d38e-a03f-4cf7-9731-498d6751a3a3")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1939,7 +1938,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "138e126f-0819-4043-8fbc-40894b5cbaf5")
@@ -1997,7 +1996,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02a33a02-3963-4ddc-b64a-0ee3b0ebb453")
+			(uuid "54a69dcf-57b5-4753-a663-93de60bd1a38")
 			(effects
 				(font
 					(size 1 1)
@@ -2010,7 +2009,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b97732e5-f989-4f6b-8eb3-94062b9992f9")
+			(uuid "f58fef09-bfb9-4f79-ae13-e9cb7331bc3a")
 			(effects
 				(font
 					(size 1 1)
@@ -2021,7 +2020,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2145,7 +2144,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:ResetSW"
+	(footprint "Pinky:ResetSW"
 		(layer "F.Cu")
 		(uuid "1f16ff3c-62d4-4cb7-b68e-74609b34ac59")
 		(at 106.71 56.91 180)
@@ -2197,7 +2196,7 @@
 		)
 		(path "/5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2373,7 +2372,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "2509f981-4292-4255-bf41-45ea5feb58bf")
 		(at 187.836064 116.364248 -10)
@@ -2426,7 +2425,7 @@
 		)
 		(path "/9f6aa6fa-3191-4b10-803e-e75e33001f85")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2987,7 +2986,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
+			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -2997,7 +2996,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "689a08ee-6ac4-44dd-84ed-a3f9f79b5960")
+			(uuid "e43de6da-b015-4668-8c40-793a58cfbc92")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -3137,7 +3136,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
+			(uuid "689a08ee-6ac4-44dd-84ed-a3f9f79b5960")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -3177,7 +3176,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e43de6da-b015-4668-8c40-793a58cfbc92")
+			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
 		)
 		(fp_line
 			(start 9.55 -2.5)
@@ -3239,7 +3238,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d75485b3-1c5b-47cc-8724-a08489ea9b03")
+			(uuid "c2b6ff0e-054b-4e4b-b55c-d547909167f3")
 		)
 		(fp_line
 			(start -9.55 -5)
@@ -3269,7 +3268,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bf5bad25-e2ed-40ff-8e51-9e94573a900b")
+			(uuid "918b4a62-3be8-4148-9eef-6e6a0d221695")
 		)
 		(fp_line
 			(start -7 -5)
@@ -3429,7 +3428,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "918b4a62-3be8-4148-9eef-6e6a0d221695")
+			(uuid "bf5bad25-e2ed-40ff-8e51-9e94573a900b")
 		)
 		(fp_line
 			(start 7.499999 -7.5)
@@ -3439,7 +3438,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c2b6ff0e-054b-4e4b-b55c-d547909167f3")
+			(uuid "d75485b3-1c5b-47cc-8724-a08489ea9b03")
 		)
 		(fp_arc
 			(start -2.5 -2.200001)
@@ -3616,7 +3615,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "2ed55e12-5e71-4311-825c-009cf20b9a29")
 		(at 134.952431 99.641867)
@@ -3669,7 +3668,7 @@
 		)
 		(path "/8188caea-8de6-4fbc-a456-b632b8bf6731")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4859,7 +4858,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "3157b174-5f13-4a36-8f72-e51b756ffcc4")
@@ -4917,7 +4916,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3291a0b-0c68-4014-bcac-cbb39d19e478")
+			(uuid "4b207c5d-6719-41ec-9662-afefd99bbaad")
 			(effects
 				(font
 					(size 1 1)
@@ -4930,7 +4929,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83f7be64-b5c9-4333-9418-5670fdde0e28")
+			(uuid "393befce-0a9d-4e1f-8acb-420417333d1f")
 			(effects
 				(font
 					(size 1 1)
@@ -4941,7 +4940,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5065,7 +5064,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "34551403-5b3b-43a6-9f93-fd99e36053ee")
@@ -5123,7 +5122,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9abf9105-bace-403a-aec9-fa5c6c4f4d67")
+			(uuid "eed997a7-eef3-4a10-a52a-e90911a1d307")
 			(effects
 				(font
 					(size 1 1)
@@ -5136,7 +5135,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "427327f5-abbd-4f23-9596-e61ae4117e08")
+			(uuid "58d6ecc3-924b-40c0-8f57-68bc7a4e5a92")
 			(effects
 				(font
 					(size 1 1)
@@ -5147,7 +5146,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0ecf4455-e900-453c-94e8-f99082fd818c")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5271,7 +5270,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:JST_PH_reversible"
+	(footprint "Pinky:JST_PH_reversible"
 		(layer "F.Cu")
 		(uuid "4fa7e0c7-23bb-40fb-beb5-e8a2140224b0")
 		(at 163.225 128.35 180)
@@ -5282,6 +5281,17 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eacef1c7-1eaf-43bc-a698-a71c158d1c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 1.25 -3.35 180)
+			(layer "F.Fab")
+			(uuid "2345e4aa-2e05-435c-a53a-10d1110dd080")
 			(effects
 				(font
 					(size 1 1)
@@ -5311,23 +5321,12 @@
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 1.25 -3.35 180)
-			(layer "F.Fab")
-			(uuid "2345e4aa-2e05-435c-a53a-10d1110dd080")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" "V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "023672d4-892f-42a9-a178-1018104f8658")
+			(uuid "82600312-7cda-40c0-8ff4-66494d50f76d")
 			(effects
 				(font
 					(size 1 1)
@@ -5340,7 +5339,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd55669c-dcc1-41a2-b8ab-28c000448c44")
+			(uuid "683902b3-3f57-40df-84c0-b614fe13edc4")
 			(effects
 				(font
 					(size 1 1)
@@ -5353,7 +5352,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61a47ff9-92f3-47ad-89b2-53ca7db46277")
+			(uuid "002d3baa-ce0b-4fff-b54d-eef3b82e2d13")
 			(effects
 				(font
 					(size 1 1)
@@ -5363,7 +5362,7 @@
 		)
 		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5575,7 +5574,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "52a168d7-79bc-48ee-853a-fdcfbb884e12")
 		(at 170.937294 103.063964 -4)
@@ -5628,7 +5627,7 @@
 		)
 		(path "/cafe9b5c-8d4c-4967-a3f1-359d5108b504")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6669,13 +6668,13 @@
 			(at 169.472839 95.693856)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "ea02b604-03c3-405a-a934-38619d13165e")
+			(uuid "d24a54be-4dfb-465c-9406-9610c89c64b3")
 		)
 		(point
 			(at 163.885956 94.952328)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "d24a54be-4dfb-465c-9406-9610c89c64b3")
+			(uuid "ea02b604-03c3-405a-a934-38619d13165e")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
@@ -6871,7 +6870,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6922,7 +6921,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "595be519-a89a-4667-b84a-b6e56d8ec47a")
@@ -6980,7 +6979,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2386925-fdb9-47ac-8141-7bf7d14234a0")
+			(uuid "268eacb2-9b24-4a97-9c42-98a97f847ba6")
 			(effects
 				(font
 					(size 1 1)
@@ -6993,7 +6992,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16408c54-e357-4880-aff4-43a34b7cf104")
+			(uuid "71e6ca0b-e8e0-4250-991d-9c79edef2126")
 			(effects
 				(font
 					(size 1 1)
@@ -7004,7 +7003,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7128,7 +7127,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "5a8f4da9-f3bf-4028-87ff-55eb6e036c08")
 		(at 152.944862 75.334448)
@@ -7181,7 +7180,7 @@
 		)
 		(path "/05f348eb-9a05-40e8-9e2d-51b3642a08b7")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8424,7 +8423,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8475,7 +8474,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "5e229850-9bb4-4e3b-a432-3780c724f1af")
 		(at 173.301009 69.160575 -4)
@@ -8528,7 +8527,7 @@
 		)
 		(path "/7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9718,7 +9717,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "611a60a4-1bd1-4fe5-a4cf-7c3d6c873956")
 		(at 172.101506 86.129911 -4)
@@ -9771,7 +9770,7 @@
 		)
 		(path "/25dd9609-789f-4f3c-89e7-04c67e5f906d")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10961,7 +10960,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "629d3d1e-9220-4381-af04-54399f73f5bc")
 		(at 152.944862 92.33906)
@@ -11014,7 +11013,7 @@
 		)
 		(path "/72154ec9-0d68-4d25-a464-427bd5d96a7b")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12055,13 +12054,13 @@
 			(at 150.969862 85.08906)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "7408c0be-5f87-4740-9b30-06e9e78a437c")
+			(uuid "d467d95e-1e53-4bd5-b3b6-c252a9c027cd")
 		)
 		(point
 			(at 145.344862 84.73906)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "d467d95e-1e53-4bd5-b3b6-c252a9c027cd")
+			(uuid "7408c0be-5f87-4740-9b30-06e9e78a437c")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -12204,7 +12203,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "6e049b48-f1f4-458e-b0df-5ff3f9cab085")
 		(at 97.944469 123.032035 8)
@@ -12257,7 +12256,7 @@
 		)
 		(path "/72debe4c-353b-441e-948e-ae12758310db")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13298,13 +13297,13 @@
 			(at 94.979685 116.127458)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "1d72f6f5-b901-408e-bbfe-06639babac22")
+			(uuid "51b67241-9c5b-4a1c-bd08-008bcd75fb5b")
 		)
 		(point
 			(at 89.360716 116.563713)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "51b67241-9c5b-4a1c-bd08-008bcd75fb5b")
+			(uuid "1d72f6f5-b901-408e-bbfe-06639babac22")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 8)
@@ -13447,7 +13446,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "6e542704-ee74-4e92-9e0e-895f00389941")
@@ -13505,7 +13504,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d08d6e4-7d9e-44e8-a249-1bcf82fd5476")
+			(uuid "e546e6c0-3104-42c1-87e4-3298c7077268")
 			(effects
 				(font
 					(size 1 1)
@@ -13518,7 +13517,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c72cc68f-3f03-4d01-b870-e93348b8c744")
+			(uuid "6dc74155-af63-4656-b9e6-cb6bc861f25e")
 			(effects
 				(font
 					(size 1 1)
@@ -13529,7 +13528,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13706,7 +13705,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13757,7 +13756,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "7c489cfd-32e6-49af-aebb-1275711636b0")
@@ -13815,7 +13814,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11a386bd-1160-4b67-a4c9-5d63e79bc0c2")
+			(uuid "0f0de897-79ff-48ae-806a-3cb4e9cb9fd9")
 			(effects
 				(font
 					(size 1 1)
@@ -13828,7 +13827,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3cca320-eb8f-458e-927a-7cbdd08ec19d")
+			(uuid "e1756d0d-862b-45da-b1b4-f58ae66a980c")
 			(effects
 				(font
 					(size 1 1)
@@ -13839,7 +13838,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13963,7 +13962,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "7d295dd7-e974-41f9-821b-9c98a0d2b9a2")
 		(at 116.96 102.287813)
@@ -14016,7 +14015,7 @@
 		)
 		(path "/a0689e1b-8703-4a10-927c-caf698818cb2")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15057,13 +15056,13 @@
 			(at 114.985 95.037813)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "9ea1274e-e6aa-430e-b24e-30fef6156aca")
+			(uuid "3cad9867-a082-443b-ab7d-1431263f2451")
 		)
 		(point
 			(at 109.36 94.687813)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "3cad9867-a082-443b-ab7d-1431263f2451")
+			(uuid "9ea1274e-e6aa-430e-b24e-30fef6156aca")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -15206,7 +15205,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Jumper"
+	(footprint "Pinky:Jumper"
 		(layer "F.Cu")
 		(uuid "8ca8de40-a514-44b7-879b-927184fcac18")
 		(at 167.52538 127.475)
@@ -15259,7 +15258,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15343,7 +15342,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "8d901ae6-9854-4f71-92c7-404b4626a9f2")
@@ -15401,7 +15400,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f083163-6367-4f0b-8d6e-78af99a37f89")
+			(uuid "62c7ee33-81d6-465c-9d12-1724d62c7dbc")
 			(effects
 				(font
 					(size 1 1)
@@ -15414,7 +15413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3df40f7b-6051-4d68-a7aa-3d5bb69f736b")
+			(uuid "35367f9c-08e2-487b-abbc-704be6f95d37")
 			(effects
 				(font
 					(size 1 1)
@@ -15425,7 +15424,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15549,7 +15548,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "8ea6da42-7ba6-4fe6-ad36-0cdf8eaea60f")
@@ -15607,7 +15606,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca3a05fc-4e14-48f7-971e-525e8ca17692")
+			(uuid "a3837cca-20fc-485d-a5c2-346c5af8a53f")
 			(effects
 				(font
 					(size 1 1)
@@ -15620,7 +15619,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0a185a5-127a-4169-97f7-4ce37e631034")
+			(uuid "08f572b8-6111-4159-a080-f7466f250a6d")
 			(effects
 				(font
 					(size 1 1)
@@ -15631,7 +15630,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/df35e296-ea0f-4574-b225-3389ca777371")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15755,7 +15754,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "917ece1c-a193-4495-95d8-fbf522672114")
@@ -15813,7 +15812,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eafa4304-fc45-4243-8f69-27dcb1dad436")
+			(uuid "7ccf559e-b60a-4537-8d13-bf1c8efe1eb8")
 			(effects
 				(font
 					(size 1 1)
@@ -15826,7 +15825,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c7feb8e-8da0-412e-960b-6a62f7486a7c")
+			(uuid "6f731c8a-d564-4516-861f-3a4371294882")
 			(effects
 				(font
 					(size 1 1)
@@ -15837,7 +15836,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15961,7 +15960,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "942e2dad-44b8-42d7-b597-8f96646051b5")
@@ -16019,7 +16018,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d58429a-308f-4872-b3c2-b5d6cb05ca6e")
+			(uuid "10dae118-b023-41f9-a2de-27d47a7f58e2")
 			(effects
 				(font
 					(size 1 1)
@@ -16032,7 +16031,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95fc548f-821f-40c3-b8c1-33caf0b02b72")
+			(uuid "d3c026e2-3f1a-4de6-b30a-d794f33c08a6")
 			(effects
 				(font
 					(size 1 1)
@@ -16043,7 +16042,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16167,7 +16166,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "97bdff7d-4e9e-4edd-b9f3-7775c57d0c73")
 		(at 193.72771 82.88421 -10)
@@ -16220,7 +16219,7 @@
 		)
 		(path "/1379ae49-5f43-4487-ba64-820f99c87628")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16781,7 +16780,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "2c5f8593-370a-4c81-8fbb-48a207649603")
+			(uuid "c4d1ce88-3cb0-4fe8-8b84-80e87a78cd3a")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -16931,7 +16930,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c4d1ce88-3cb0-4fe8-8b84-80e87a78cd3a")
+			(uuid "2c5f8593-370a-4c81-8fbb-48a207649603")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -17033,7 +17032,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ac0d6d5e-abb1-4ccc-a1b2-2127532cf6ec")
+			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
 		)
 		(fp_line
 			(start -9.55 -5)
@@ -17063,7 +17062,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
+			(uuid "ac0d6d5e-abb1-4ccc-a1b2-2127532cf6ec")
 		)
 		(fp_line
 			(start -7 -5)
@@ -17261,13 +17260,13 @@
 			(at 193.041664 75.401399)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "5a39b9cb-7939-4c54-94a9-7d202a584d25")
+			(uuid "337e4102-d34a-4e02-b2cf-591bc5146f7e")
 		)
 		(point
 			(at 187.562897 74.079945)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "337e4102-d34a-4e02-b2cf-591bc5146f7e")
+			(uuid "5a39b9cb-7939-4c54-94a9-7d202a584d25")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
@@ -17463,7 +17462,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17514,7 +17513,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "9c8b2a69-3809-4bfb-9dbf-f15fdf22092c")
@@ -17572,7 +17571,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd215d58-232b-4dd3-8383-8872f26b2bbc")
+			(uuid "f43d5a6c-5995-456f-b6fc-bb03ef6ab1fb")
 			(effects
 				(font
 					(size 1 1)
@@ -17585,7 +17584,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "156f36b5-96b8-4b96-b8ee-6147ec48bbaa")
+			(uuid "5a528219-0542-4a81-88fe-7b60a8cca19b")
 			(effects
 				(font
 					(size 1 1)
@@ -17596,7 +17595,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/549837fd-742e-4acb-9954-b1cc01668088")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17720,7 +17719,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "9ec16e6c-c7fa-4bcf-95d2-b52fb4f32e1b")
 		(at 116.96 85.318484)
@@ -17773,7 +17772,7 @@
 		)
 		(path "/e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18963,7 +18962,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:MSK12C02_reversible"
+	(footprint "Pinky:MSK12C02_reversible"
 		(layer "F.Cu")
 		(uuid "a045f640-8670-46e0-bdbf-d01fcac2a5dc")
 		(at 100.5 55.35 -90)
@@ -19014,7 +19013,7 @@
 		)
 		(path "/2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19139,7 +19138,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "a10d48a6-41a9-4705-8945-a59a152a231a")
 		(at 134.952431 65.632647)
@@ -19192,7 +19191,7 @@
 		)
 		(path "/e2ceac69-a5d5-462f-b8e7-24123de35429")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20382,7 +20381,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "a6ad72e3-f5a6-4e48-bb6a-b43267a4a3f4")
@@ -20440,7 +20439,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78baf7f6-64b2-46b5-ba6a-0fd4107fc0d1")
+			(uuid "30525778-e58d-41fd-a3b9-2c2693edb8d6")
 			(effects
 				(font
 					(size 1 1)
@@ -20453,7 +20452,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8a14f54-a9bb-4300-b49f-e537f3351943")
+			(uuid "9f944b90-036a-45eb-8eff-fd576105488a")
 			(effects
 				(font
 					(size 1 1)
@@ -20464,7 +20463,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/448e4710-476c-44c5-b0f0-7e27b648e95f")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20588,7 +20587,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "a85e225b-ee37-44c4-bef7-f3adf3214263")
@@ -20646,7 +20645,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe2012eb-2199-4f2b-8dc9-b913c693118c")
+			(uuid "76af18b6-aa91-4eaa-b982-6b010616201b")
 			(effects
 				(font
 					(size 1 1)
@@ -20659,7 +20658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1132aa9e-290b-441c-acd6-af283a43ca29")
+			(uuid "fde1d526-e54a-476c-bab5-80587743eff0")
 			(effects
 				(font
 					(size 1 1)
@@ -20670,7 +20669,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20794,7 +20793,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "aa3c2566-9cc0-4852-b662-262802c8f297")
@@ -20852,7 +20851,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c63df72f-9ad5-4391-ba62-2d485c5ad197")
+			(uuid "00edf439-29a3-44eb-93ef-27302ed43c97")
 			(effects
 				(font
 					(size 1 1)
@@ -20865,7 +20864,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "983747b7-7bca-4353-b728-8f58395033fc")
+			(uuid "85cd61a0-7dc6-47eb-93b4-7eff4e6c483c")
 			(effects
 				(font
 					(size 1 1)
@@ -20876,7 +20875,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21000,7 +20999,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "c195b59c-ed6d-41de-bcc3-8e5ad31f49ea")
 		(at 116.96 68.313872)
@@ -21053,7 +21052,7 @@
 		)
 		(path "/8bb89a93-d7e1-42e7-b46e-e080be939965")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22243,7 +22242,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "c276ac88-b39b-4aa8-a37b-856344617097")
 		(at 116.96 121.056395 3)
@@ -22296,7 +22295,7 @@
 		)
 		(path "/a9980814-ca5f-4ba5-922a-1a504b5f4f96")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23337,13 +23336,13 @@
 			(at 114.608271 113.919694)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "9a931276-dc42-4bcc-b227-7c6a0716ba96")
+			(uuid "86fe0bce-36c7-493f-82b0-8871c52bd532")
 		)
 		(point
 			(at 108.972662 113.864564)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "86fe0bce-36c7-493f-82b0-8871c52bd532")
+			(uuid "9a931276-dc42-4bcc-b227-7c6a0716ba96")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 3)
@@ -23539,7 +23538,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/71703110-63b8-4119-83da-759c099f6741")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23590,7 +23589,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "cb4b65b8-ae30-45cd-9ef9-6b7be07c4848")
 		(at 134.952431 82.637259)
@@ -23643,7 +23642,7 @@
 		)
 		(path "/aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24684,13 +24683,13 @@
 			(at 132.977431 75.387259)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "5b8d1053-0822-47bb-9807-911918ca11ee")
+			(uuid "7cb571de-a1a1-4f62-84c7-b001e1188d7d")
 		)
 		(point
 			(at 127.352431 75.037259)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "7cb571de-a1a1-4f62-84c7-b001e1188d7d")
+			(uuid "5b8d1053-0822-47bb-9807-911918ca11ee")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -24833,7 +24832,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:nice_nano"
+	(footprint "Pinky:nice_nano"
 		(layer "F.Cu")
 		(uuid "d4db7f11-8cfe-40d2-b021-b36f05241701")
 		(at 98.35 93.1)
@@ -24885,7 +24884,7 @@
 		)
 		(path "/cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25764,7 +25763,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Diode_SOD123"
+	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "da394640-5aa5-40d8-a5ea-e46881495cd3")
@@ -25822,7 +25821,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb9c1d6f-ef18-4c05-a59c-c6ea8a8fa047")
+			(uuid "f00da944-5afc-492d-a2f5-3a523fe159ad")
 			(effects
 				(font
 					(size 1 1)
@@ -25835,7 +25834,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f5cf3c7-85ef-4d72-a4f2-272ac25726c0")
+			(uuid "27fea4c5-f410-4193-86d0-58ad3ea15d3c")
 			(effects
 				(font
 					(size 1 1)
@@ -25846,7 +25845,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25970,7 +25969,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Kailh_socket_PG1350_optional_reversible"
+	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
 		(uuid "f5c585fa-459a-4d91-a573-b0f999232cd8")
 		(at 190.799523 99.641867 -10)
@@ -26023,7 +26022,7 @@
 		)
 		(path "/92fbf0cb-13a5-442a-a697-7d0064a38422")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26584,7 +26583,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3dc9d7a4-0001-4958-a467-4a40bbf22c9c")
+			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -26594,7 +26593,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
+			(uuid "3dc9d7a4-0001-4958-a467-4a40bbf22c9c")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -26734,7 +26733,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
+			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -26774,7 +26773,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
+			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
 		)
 		(fp_line
 			(start 9.55 -2.5)
@@ -26836,7 +26835,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "750672ed-6299-42c2-b72d-179b11e29608")
+			(uuid "9d68c46a-566e-4340-a1c1-c5759447475e")
 		)
 		(fp_line
 			(start -9.55 -5)
@@ -26866,7 +26865,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9d68c46a-566e-4340-a1c1-c5759447475e")
+			(uuid "750672ed-6299-42c2-b72d-179b11e29608")
 		)
 		(fp_line
 			(start -7 -5)
@@ -27026,7 +27025,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ceded776-8101-4dc2-bf0c-c68067368bff")
+			(uuid "cbaac10b-4ba4-4401-8ca0-de591d554b1a")
 		)
 		(fp_line
 			(start 7.499999 -7.5)
@@ -27036,7 +27035,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cbaac10b-4ba4-4401-8ca0-de591d554b1a")
+			(uuid "ceded776-8101-4dc2-bf0c-c68067368bff")
 		)
 		(fp_arc
 			(start -2.5 -2.200001)
@@ -27064,13 +27063,13 @@
 			(at 190.113477 92.159056)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "3d9c4597-b34b-40ed-b25d-0022a1276806")
+			(uuid "b9d03a58-4309-4afd-bba8-eae0d328a489")
 		)
 		(point
 			(at 184.63471 90.837602)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "b9d03a58-4309-4afd-bba8-eae0d328a489")
+			(uuid "3d9c4597-b34b-40ed-b25d-0022a1276806")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
@@ -27213,7 +27212,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PLITKA:Jumper"
+	(footprint "Pinky:Jumper"
 		(layer "B.Cu")
 		(uuid "17993541-71ea-47e8-946a-47b818ba6406")
 		(at 167.52538 129.25)
@@ -27270,7 +27269,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27354,7 +27353,7 @@
 			)
 		)
 	)
-	(footprint "PLITKA:Jumper"
+	(footprint "Pinky:Jumper"
 		(layer "B.Cu")
 		(uuid "e6215b72-ce37-4bc7-8011-c39d699f2039")
 		(at 167.52538 127.475)
@@ -27411,7 +27410,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(sheetname "/")
-		(sheetfile "PLITKA.kicad_sch")
+		(sheetfile "Pinky.kicad_sch")
 		(units
 			(unit
 				(name "A")

@@ -56517,77 +56517,77 @@ solder jumper open
 0
 5
 3
-PLITKA
+Pinky
 Diode_SOD123
 Diode, DO-41, SOD81, Horizontal, RM 10mm,
 Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,
 0
 2
 2
-PLITKA
+Pinky
 JST_PH_reversible
 JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
 connector JST PH top entry
 0
 2
 2
-PLITKA
+Pinky
 Jumper
 
 
 0
 2
 2
-PLITKA
+Pinky
 Kailh_socket_PG1350_optional_reversible
 Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
 kailh,choc
 0
 7
 2
-PLITKA
+Pinky
 LED_3mm_reversible
 
 
 0
 2
 2
-PLITKA
+Pinky
 MSK12C02_reversible
 
 
 0
 10
 4
-PLITKA
+Pinky
 ProMicro_v2
 
 
 0
 48
 24
-PLITKA
+Pinky
 R_1206_DoubleSided
 Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
 2
-PLITKA
+Pinky
 ResetSW
 
 
 0
 2
 2
-PLITKA
+Pinky
 SplitkbTentingPuck_threeholes
 https://splitkb.com/products/tenting-puck
 split kb tenting puck mechanical mounting
 0
 2
 1
-PLITKA
+Pinky
 custombatteryconnector
 Soldered wire connection, for 2 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
 connector wire 0.75sqmm

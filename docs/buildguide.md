@@ -1,4 +1,4 @@
-# PLITKA BUILDGUIDE (WIP)
+# Pinky BUILDGUIDE (WIP)
 
 ## PART LIST
 
@@ -6,8 +6,8 @@
 
 | Part name         | Count | Remarks | 
 | :---------------- | :---: | :------ |
-| PLITKA PCB         | 02 | You can find the files for it [here](/PCB/) |
-| PLITKA switchplate | 02 | Which you can find [here](/switchplate/) |
+| Pinky PCB         | 02 | You can find the files for it [here](/PCB/) |
+| Pinky switchplate | 02 | Which you can find [here](/switchplate/) |
 | nice!nano         | 02 | Alternatively, you can use another controller with similar pinout and bluetooth capabilities like the Puchi-BLE |
 | Choc key switch   | 34 | Kailh Choc low profile keyswitches |
 | diodes 1N4148W    | 34 | These are surface mount diodes in SOD123 package |
@@ -41,9 +41,9 @@
 
 Here is an overview of where and on which side each component needs to be soldered (click on the image to see a larger version).
 
-![PLITKA solder guide](/docs/images/PLITKA_solderguide.png)
+![Pinky solder guide](/docs/images/pinky_solderguide.png)
 
-To see what component needs to sit where you can take a look at the [interactive HTML BOM](https://htmlpreview.github.io/?https://github.com/GEIGEIGEIST/PLITKA/blob/main/docs/plitka_rev0-2_ibom.html).
+To see what component needs to sit where you can take a look at the [interactive HTML BOM](https://htmlpreview.github.io/?https://github.com/rawrex/pinky/blob/main/docs/pinky_rev0-2_ibom.html).
 
 > **Warning**
 > This interactive HTML BOM does show where each component is located, but please still refer to the solder guide above to see if a component needs to go on the top or bottom of the PCB.
@@ -203,15 +203,6 @@ This is how your finished PCB probably will look like. You can use an old toothb
 
 ***
 
-## FIRMWARE
-
-If you have not already flashed the firmware to the microcontroller you should do it now, to make sure everything works, before inserting everyting into the case.\
-[Here](https://github.com/GEIGEIGEIST/zmk-config-plitka) you can find the ZMK firmware for the PLITKA.\
-You need to create an own fork of it. In this fork you can edit the keymap to trigger an Github action, which will create your firmware. 
-
-
-***
-
 ## SWITCHPLATE
 
 Since there isn't much space beween switchplate and PCB on choc builds you don't really need screws, but if you use them I recommend O-rings, which are meant to act as spacer between PCB and switchplate. Thick and small ones seem to work best in this case.
@@ -235,7 +226,7 @@ Attach the plate to the PCB and use some switches to keep it in place, so you ca
 
 This is the 3D printed knob you can find [here](/knob/).
 
-![PLITKA knob](/docs/images/buildguide/knob.jpg)
+![Pinky knob](/docs/images/buildguide/knob.jpg)
 
 
 ***
@@ -245,4 +236,4 @@ This is the 3D printed knob you can find [here](/knob/).
 Insert the rest of the switches and put some keycaps on.\
 In this picture you see it with Pseudoku CS keycaps on homing keys and thumbs, the other keycaps are MBK blanks.
 
-![KLOR final](/docs/images/buildguide/PLITKA_final.jpg)
+![KLOR final](/docs/images/buildguide/pinky_final.jpg)

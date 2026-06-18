@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "PLITKA")(type "KiCad")(uri "${KIPRJMOD}/PLITKA.pretty")(options "")(descr ""))
+  (lib (name "Pinky")(type "KiCad")(uri "${KIPRJMOD}/Pinky.pretty")(options "")(descr ""))
 )
