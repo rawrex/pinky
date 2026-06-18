@@ -9,7 +9,7 @@ This repo: PCB, footprints, and symbols.
 | Path | What |
 |---|---|
 | `PCB/pinky.kicad_sch` | Schematic (KiCad v10.0, format 20260306) |
-| `PCB/pinky.kicad_pcb` | PCB layout, 2-layer, 1.6 mm, rev 0.2 |
+| `PCB/pinky.kicad_pcb` | PCB layout, 2-layer, 1.6 mm, rev 0.1 |
 | `PCB/pinky.kicad_pro` | Project settings (DRC rules, net classes, BOM config) |
 | `PCB/Pinky.pretty/` | **7 custom footprints** + **4 symbol library files** (`.kicad_sym`). Case-sensitive — dir name is `Pinky.pretty`, not `pinky.pretty` |
 | `PCB/fp-lib-table` | Footprint library table — must have exactly ONE entry: `Pinky` → `${KIPRJMOD}/Pinky.pretty` |
