@@ -557,7 +557,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Pinky:Jumper"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5293,7 +5293,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 53.34 83.82 90)
+			(at 48.26 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5955,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Jumper"
 			(at 45.72 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6604,7 +6604,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 37.338 35.56 90)
+			(at 40.894 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7643,7 +7643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.608 83.82 90)
+			(at 40.64 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8509,7 +8509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Jumper"
 			(at 45.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -8589,7 +8589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Jumper"
 			(at 45.72 118.11 0)
 			(hide yes)
 			(show_name no)
