@@ -1,6 +1,3 @@
 (sym_lib_table
-  (lib (name "device_jumper_nc_small")(type "KiCad")(uri "${KIPRJMOD}/Pinky.pretty/device_jumper_nc_small.kicad_sym")(options "")(descr ""))
-  (lib (name "device_jumper_no_small")(type "KiCad")(uri "${KIPRJMOD}/Pinky.pretty/device_jumper_no_small.kicad_sym")(options "")(descr ""))
-  (lib (name "soflekeyboard-rescue_mj-4pp-9-lily58-cache-lily58_pro-rescue")(type "KiCad")(uri "${KIPRJMOD}/Pinky.pretty/soflekeyboard-rescue_mj-4pp-9-lily58-cache-lily58_pro-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "Pinky")(type "KiCad")(uri "${KIPRJMOD}/Pinky.pretty/pinky.kicad_sym")(options "")(descr ""))
 )

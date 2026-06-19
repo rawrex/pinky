@@ -11,9 +11,9 @@ This repo: PCB, footprints, and symbols only.
 | `PCB/pinky.kicad_sch` | Schematic (rev 0.1) |
 | `PCB/pinky.kicad_pcb` | PCB layout, 2-layer, 1.6 mm |
 | `PCB/pinky.kicad_pro` | Project settings (DRC rules, net classes, BOM config) |
-| `PCB/Pinky.pretty/` | **7 custom footprints** + **4 symbol library files** (`.kicad_sym`). Case-sensitive — dir name is `Pinky.pretty`, not `pinky.pretty` |
+| `PCB/Pinky.pretty/` | **7 custom footprints** + **1 symbol library file** (`pinky.kicad_sym`). Case-sensitive — dir name is `Pinky.pretty`, not `pinky.pretty` |
 | `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `Pinky` → `${KIPRJMOD}/Pinky.pretty` |
-| `PCB/sym-lib-table` | Symbol library table — references 4 `.kicad_sym` files inside `Pinky.pretty/` |
+| `PCB/sym-lib-table` | Symbol library table — references `pinky.kicad_sym` inside `Pinky.pretty/` |
 | `PCB/README.md` | JLCPCB manufacturing instructions |
 
 ## Library gotchas
@@ -43,11 +43,13 @@ Plus system lib: `MountingHole:MountingHole_2.2mm_M2_ISO7380` (5 per board).
 
 ## Custom symbols
 
-5 unique symbol types across 4 `.kicad_sym` files (12 definitions including unit variants):
+3 unique symbol types in `pinky.kicad_sym` (10 definitions including unit variants):
 
-- `Device_Jumper_NC_Small`, `Device_Jumper_NO_Small` → `Pinky.pretty/device_jumper_*_small.kicad_sym`
-- `MJ-4PP-9` → `Pinky.pretty/soflekeyboard-rescue_mj-4pp-9-...kicad_sym`
-- `MX_SW_HS`, `nice_nano` → `Pinky.pretty/pinky.kicad_sym`
+| Symbol | Used for |
+|---|---|
+| `Device_Jumper_NO_Small` | Solder jumper pads (JP1–JP4) |
+| `MX_SW_HS` | Kailh Choc keyswitch sockets (34 per board) |
+| `nice_nano` | MCU module |
 
 **Non-obvious mapping:** `Pinky:MX_SW_HS` (symbol) ↔ `Pinky:Kailh_socket_PG1350_optional_reversible` (footprint).
 
