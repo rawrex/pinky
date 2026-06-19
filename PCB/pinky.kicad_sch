@@ -590,7 +590,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "Pinky:Jumper"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3253,17 +3253,17 @@
 	)
 	(global_label "col_A"
 		(shape input)
-		(at 93.98 24.13 90)
+		(at 93.98 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "05f230b1-be55-47bc-82db-9b5e9063ed1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 16.1858 90)
+			(at 86.0358 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,23 +3271,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "col_D"
 		(shape input)
-		(at 127 24.13 90)
+		(at 127 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0d2c0ab5-28fa-42ed-9f64-9b2a913d91e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 16.0044 90)
+			(at 118.8744 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3295,23 +3295,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "col_B"
 		(shape input)
-		(at 105.41 24.13 90)
+		(at 105.41 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "13ad0dc1-5157-4a98-aa89-7dc833ed1960")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.41 16.0044 90)
+			(at 97.2844 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,23 +3319,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "col_C"
 		(shape input)
-		(at 116.84 24.13 90)
+		(at 116.84 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2073bc19-6c94-4899-98ff-15fc9a0e28e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 16.0044 90)
+			(at 108.7144 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3343,7 +3343,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3637,17 +3637,17 @@
 	)
 	(global_label "col_E"
 		(shape input)
-		(at 138.43 24.13 90)
+		(at 138.43 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d0f0b6e5-357f-4641-b21d-56868340d777")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 16.1254 90)
+			(at 130.4254 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +3655,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3980,7 +3980,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ecf4455-e900-453c-94e8-f99082fd818c")
 		(property "Reference" "D6"
-			(at 113.03 54.6099 90)
+			(at 113.03 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3991,7 +3991,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 113.03 57.1499 90)
+			(at 112.522 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +3999,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4176,7 +4176,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 73.66 118.11 90)
+			(at 70.866 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4243,7 +4243,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(property "Reference" "D13"
-			(at 134.366 54.6099 90)
+			(at 134.62 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4254,7 +4254,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 134.366 57.1499 90)
+			(at 134.112 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,7 +4262,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4348,7 +4348,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(property "Reference" "D1"
-			(at 101.092 36.8299 90)
+			(at 101.6 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4359,7 +4359,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 101.092 39.3699 90)
+			(at 101.092 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4367,7 +4367,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4453,7 +4453,7 @@
 		(fields_autoplaced yes)
 		(uuid "24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(property "Reference" "D14"
-			(at 134.366 73.6599 90)
+			(at 134.62 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4464,7 +4464,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 134.366 76.1999 90)
+			(at 134.112 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4472,7 +4472,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4639,7 +4639,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(property "Reference" "D7"
-			(at 113.03 73.6599 90)
+			(at 113.03 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4650,7 +4650,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 113.03 76.1999 90)
+			(at 112.522 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4658,7 +4658,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4763,8 +4763,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:MSK12C02_reversible"
-			(at 59.69 120.65 0)
+		(property "Footprint" ""
+			(at 59.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 120.65 0)
+			(at 59.69 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5022,7 +5022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9364ba-389e-4338-8b33-f3cfed5e23d6")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 46.355 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5083,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -5178,7 +5178,7 @@
 		(fields_autoplaced yes)
 		(uuid "448e4710-476c-44c5-b0f0-7e27b648e95f")
 		(property "Reference" "D3"
-			(at 101.092 73.6599 90)
+			(at 101.6 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5189,7 +5189,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 101.092 76.1999 90)
+			(at 101.092 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5197,7 +5197,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5281,7 +5281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46124236-c10f-427c-a0d7-a5696417f434")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG1"
 			(at 46.355 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5293,7 +5293,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 52.578 83.82 90)
+			(at 53.34 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5341,7 +5341,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG01")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -5436,7 +5436,7 @@
 		(fields_autoplaced yes)
 		(uuid "549837fd-742e-4acb-9954-b1cc01668088")
 		(property "Reference" "D5"
-			(at 113.03 36.8299 90)
+			(at 113.03 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5447,7 +5447,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 113.03 39.3699 90)
+			(at 112.522 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,7 +5455,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5541,7 +5541,7 @@
 		(fields_autoplaced yes)
 		(uuid "5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(property "Reference" "D17"
-			(at 146.304 73.6599 90)
+			(at 146.05 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5552,7 +5552,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 146.304 76.1999 90)
+			(at 145.542 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5560,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5726,7 +5726,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(property "Reference" "D8"
-			(at 113.03 91.4399 90)
+			(at 113.03 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5737,7 +5737,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 113.03 93.9799 90)
+			(at 112.522 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +5745,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5831,7 +5831,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(property "Reference" "D10"
-			(at 123.698 54.6099 90)
+			(at 124.46 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5842,7 +5842,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 123.698 57.1499 90)
+			(at 123.952 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,7 +5850,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6184,7 +6184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 132.588 0)
+			(at 55.88 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6332,7 +6332,7 @@
 		(fields_autoplaced yes)
 		(uuid "78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(property "Reference" "D2"
-			(at 101.092 54.6099 90)
+			(at 101.6 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6343,7 +6343,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 101.092 57.1499 90)
+			(at 101.092 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6351,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6913,7 +6913,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(property "Reference" "D4"
-			(at 101.092 91.4399 90)
+			(at 101.6 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6924,7 +6924,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 101.092 93.9799 90)
+			(at 101.092 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6932,7 +6932,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7261,7 +7261,7 @@
 		(fields_autoplaced yes)
 		(uuid "a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(property "Reference" "D12"
-			(at 134.366 36.8299 90)
+			(at 134.62 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7272,7 +7272,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 134.366 39.3699 90)
+			(at 134.112 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7280,7 +7280,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7528,7 +7528,7 @@
 		(fields_autoplaced yes)
 		(uuid "b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(property "Reference" "D9"
-			(at 123.698 36.8299 90)
+			(at 124.46 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7539,7 +7539,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 123.698 39.3699 90)
+			(at 123.952 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7547,7 +7547,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7643,7 +7643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 37.846 83.82 90)
+			(at 38.608 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7790,7 +7790,7 @@
 		(dnp no)
 		(uuid "cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(property "Reference" "U1"
-			(at 30.734 38.862 0)
+			(at 29.972 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7800,7 +7800,7 @@
 			)
 		)
 		(property "Value" "nice!nano"
-			(at 34.798 41.402 0)
+			(at 34.544 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7810,7 +7810,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:nice_nano"
-			(at 40.386 36.068 0)
+			(at 55.118 41.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +7946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 108.458 0)
+			(at 55.88 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8013,7 +8013,7 @@
 		(fields_autoplaced yes)
 		(uuid "df35e296-ea0f-4574-b225-3389ca777371")
 		(property "Reference" "D11"
-			(at 123.698 73.6599 90)
+			(at 124.46 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8024,7 +8024,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 123.698 76.1999 90)
+			(at 123.952 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,7 +8032,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8118,7 +8118,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(property "Reference" "D16"
-			(at 146.304 54.6099 90)
+			(at 146.05 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8129,7 +8129,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 146.304 57.1499 90)
+			(at 145.542 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8137,7 +8137,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8385,7 +8385,7 @@
 		(fields_autoplaced yes)
 		(uuid "e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(property "Reference" "D15"
-			(at 146.304 36.8299 90)
+			(at 146.05 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8396,7 +8396,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 146.304 39.3699 90)
+			(at 145.542 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8404,7 +8404,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
