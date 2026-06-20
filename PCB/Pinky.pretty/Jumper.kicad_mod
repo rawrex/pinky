@@ -102,15 +102,4 @@
 		(uuid "ff0d394a-0038-439d-9adb-6537f34cfec7")
 	)
 	(embedded_fonts no)
-	(model "smd\\resistors\\R0603.wrl"
-		(offset
-			(xyz 0 0 0.02539999962)
-		)
-		(scale
-			(xyz 0.5 0.5 0.5)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

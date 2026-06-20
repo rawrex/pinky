@@ -835,15 +835,4 @@
 		(uuid "cbb21771-876e-4155-acd8-7b44834fd1c1")
 	)
 	(embedded_fonts no)
-	(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl"
-		(offset
-			(xyz -13.96999979 -7.619999886 -5.841999912)
-		)
-		(scale
-			(xyz 0.395 0.395 0.395)
-		)
-		(rotate
-			(xyz 90 180 180)
-		)
-	)
 )
