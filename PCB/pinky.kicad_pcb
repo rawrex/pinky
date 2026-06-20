@@ -18609,7 +18609,7 @@
 				)
 			)
 		)
-		(property "Description" "Foo"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
