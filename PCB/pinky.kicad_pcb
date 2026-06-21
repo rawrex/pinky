@@ -180,7 +180,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69b87645-554e-42d1-8b92-9719f656d857")
+			(uuid "c6b5f26a-366f-4bed-b7e2-211fcfa1fd2a")
 			(effects
 				(font
 					(size 1 1)
@@ -193,7 +193,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b27081f-48cc-4263-870d-313129910ead")
+			(uuid "53c4ec21-e569-414d-89ef-181fe84d6af5")
 			(effects
 				(font
 					(size 1 1)
@@ -400,7 +400,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d50b27c-1bb0-49bb-8f09-9abe80de904f")
+			(uuid "9acfda5d-c46b-4db2-9051-9b3654a5f587")
 			(effects
 				(font
 					(size 1 1)
@@ -413,7 +413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "847b1e70-7b30-41a3-9093-49949a87f8bc")
+			(uuid "e7aa582a-76e3-42e2-8e05-9e79d9eb9d1d")
 			(effects
 				(font
 					(size 1 1)
@@ -578,7 +578,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "Jumper"
 			(at -2.794 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -706,7 +706,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "96b9f2cf-cbf2-4a53-a073-03acd1792403")
@@ -728,7 +728,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1782,13 +1782,13 @@
 			(at 150.969862 51.115117)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "d399fec8-a2dd-41ea-a8bd-9fd9137ee2fd")
+			(uuid "bc579a76-32e9-4e0b-8591-b3f8de1ae78b")
 		)
 		(point
 			(at 145.344862 50.765117)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "bc579a76-32e9-4e0b-8591-b3f8de1ae78b")
+			(uuid "d399fec8-a2dd-41ea-a8bd-9fd9137ee2fd")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -1989,7 +1989,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5b4b258-a293-4c04-867b-4745ac2cfefb")
+			(uuid "a60ef961-3e3d-4c30-9ec8-f480fbe626b3")
 			(effects
 				(font
 					(size 1 1)
@@ -2002,7 +2002,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f31d11d0-c2ba-45ad-a91f-888c3a35cc81")
+			(uuid "3c0b7ba4-cfc7-447b-8673-9c6bbe72550d")
 			(effects
 				(font
 					(size 1 1)
@@ -2397,7 +2397,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(uuid "924debe9-6144-48b7-9977-fdf040c5a0d2")
@@ -2419,7 +2419,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -2775,7 +2775,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2844,7 +2844,7 @@
 			(uuid "7327bb88-63f9-4991-bf77-1802b56e003e")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.15)
@@ -3003,7 +3003,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
+			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -3097,7 +3097,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3143,10 +3143,10 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
+			(uuid "689a08ee-6ac4-44dd-84ed-a3f9f79b5960")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.15)
@@ -3183,7 +3183,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "689a08ee-6ac4-44dd-84ed-a3f9f79b5960")
+			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
 		)
 		(fp_line
 			(start 9.55 -2.5)
@@ -3228,7 +3228,7 @@
 			(uuid "a4073fa1-2539-4855-a3a5-76ab718d716f")
 		)
 		(fp_line
-			(start -9.55 -2.499998)
+			(start -9.55 -2.499999)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -3249,7 +3249,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499998)
+			(end -9.55 -2.499999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3408,7 +3408,7 @@
 			(uuid "af450198-f957-4785-a515-d2c50fb6cfac")
 		)
 		(fp_line
-			(start 4.549998 -5.957)
+			(start 4.549999 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.15)
@@ -3473,13 +3473,13 @@
 			(at 187.150018 108.881437)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "a36c484c-4bcf-43cd-b398-644710af16d7")
+			(uuid "76410384-9a71-48c3-9e11-5a52e7e91acf")
 		)
 		(point
 			(at 181.671251 107.559983)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "76410384-9a71-48c3-9e11-5a52e7e91acf")
+			(uuid "a36c484c-4bcf-43cd-b398-644710af16d7")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
@@ -3640,7 +3640,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "0cd3b583-cd4c-4c4e-89c0-f61debffc5fc")
@@ -3662,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4716,13 +4716,13 @@
 			(at 132.977431 92.391867)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "3d632094-89a3-4bad-90e3-06a6450d3c5b")
+			(uuid "7ba8df7d-e5b9-4521-9c17-768f2ef48e8f")
 		)
 		(point
 			(at 127.352431 92.041867)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "7ba8df7d-e5b9-4521-9c17-768f2ef48e8f")
+			(uuid "3d632094-89a3-4bad-90e3-06a6450d3c5b")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -4923,7 +4923,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f979d756-57f4-4b5e-be05-0ce80132b44f")
+			(uuid "2bfabd91-dff0-4d8e-a684-5b5d60f8cd04")
 			(effects
 				(font
 					(size 1 1)
@@ -4936,7 +4936,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30b4fbdb-6e7a-4fa4-8125-8e0f3359771a")
+			(uuid "deae6e57-3221-4a26-acde-061ab997208e")
 			(effects
 				(font
 					(size 1 1)
@@ -5143,7 +5143,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65fcd706-e6fb-4861-bf98-6d568ec5c0bf")
+			(uuid "3bbc2de5-0ef4-4f3c-9828-d352f78fcbf4")
 			(effects
 				(font
 					(size 1 1)
@@ -5156,7 +5156,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91033097-ae9d-4668-bd3d-c20afc91bd78")
+			(uuid "d3766028-afdf-41a5-b38d-995ec327ae38")
 			(effects
 				(font
 					(size 1 1)
@@ -5361,7 +5361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad96ce35-a33d-49e6-b127-6cdd07cfbb56")
+			(uuid "3ac7c638-0e41-4e01-bbd4-e7006994fc9a")
 			(effects
 				(font
 					(size 1 1)
@@ -5374,7 +5374,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19809aeb-c8fe-4db4-902b-37d85f14e42c")
+			(uuid "c4e8f58e-e07a-4f3c-b805-1fc166035966")
 			(effects
 				(font
 					(size 1 1)
@@ -5387,7 +5387,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9810d06a-ab02-47f6-8ad2-7adc0859994b")
+			(uuid "e3b1adba-11eb-4438-b379-cf5154803321")
 			(effects
 				(font
 					(size 1 1)
@@ -5627,7 +5627,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(uuid "4955ef19-3994-47c8-aea5-2de980623a22")
@@ -5649,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -5702,7 +5702,7 @@
 			(uuid "5561d723-cffe-45e0-a880-764cfd698dd3")
 		)
 		(fp_line
-			(start -7.000004 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -5732,7 +5732,7 @@
 			(uuid "9c1a1d16-aed0-4046-ad25-2132f0a4f39d")
 		)
 		(fp_line
-			(start -6 7.000004)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -5842,7 +5842,7 @@
 			(uuid "ebcf4a89-a173-4b67-b34d-95de57357077")
 		)
 		(fp_line
-			(start 6 -7.000004)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -5862,7 +5862,7 @@
 			(uuid "e330ee68-faee-4d06-89d8-c7a341a128e8")
 		)
 		(fp_line
-			(start 7.000004 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -5914,7 +5914,7 @@
 			(uuid "bbe6dd70-4693-484e-9fd7-a8969f9dcfda")
 		)
 		(fp_line
-			(start -7.000004 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -5934,7 +5934,7 @@
 			(uuid "690d928a-65bd-4540-8c8a-f88ba1134d88")
 		)
 		(fp_line
-			(start -6 7.000004)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -6044,7 +6044,7 @@
 			(uuid "ba900e94-5854-4bab-81f1-4c5017f2ec5f")
 		)
 		(fp_line
-			(start 6 -7.000004)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -6064,7 +6064,7 @@
 			(uuid "3556fc5d-ee69-4384-86b5-cbeaa5f6690d")
 		)
 		(fp_line
-			(start 7.000004 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -6458,7 +6458,7 @@
 			(uuid "f2a1e3e8-6eab-4ff5-b5ec-968e2c74b57e")
 		)
 		(fp_line
-			(start -9.549998 -2.5)
+			(start -9.549999 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -6469,7 +6469,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549998 -2.5)
+			(end -9.549999 -2.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -7014,7 +7014,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1952d29-eebb-4606-ba0f-5512b09ad755")
+			(uuid "a6d9a18f-4886-4a69-a65e-8e139b60862b")
 			(effects
 				(font
 					(size 1 1)
@@ -7027,7 +7027,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab8c45c6-7987-4596-91d5-5e0031e8e499")
+			(uuid "61e98ba0-3abd-4269-a168-3b45b86d6445")
 			(effects
 				(font
 					(size 1 1)
@@ -7194,7 +7194,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "7d212ebf-e374-4626-9ce8-67062fce019c")
@@ -7216,7 +7216,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8541,7 +8541,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(uuid "504efc44-e316-4191-aedf-4a9a6fd16b94")
@@ -8563,7 +8563,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -8616,7 +8616,7 @@
 			(uuid "36be91a6-8044-4ebf-9721-6a55c507003b")
 		)
 		(fp_line
-			(start -7.000004 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -8646,7 +8646,7 @@
 			(uuid "4e5a5802-4d89-4ae0-973f-a235b0b7db62")
 		)
 		(fp_line
-			(start -6 7.000004)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -8756,7 +8756,7 @@
 			(uuid "01b4767b-e8b1-48da-bcd9-a982708090e5")
 		)
 		(fp_line
-			(start 6 -7.000004)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -8776,7 +8776,7 @@
 			(uuid "e7b1f096-efae-4185-8f7e-bec9c1be62d5")
 		)
 		(fp_line
-			(start 7.000004 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -8828,7 +8828,7 @@
 			(uuid "c5bc07f9-8446-40c9-87a9-a34ee819a5e6")
 		)
 		(fp_line
-			(start -7.000004 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -8848,7 +8848,7 @@
 			(uuid "84e10ebe-795a-49e9-bb43-5e09dc784a67")
 		)
 		(fp_line
-			(start -6 7.000004)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -8958,7 +8958,7 @@
 			(uuid "a37d0d59-a8f4-4789-9df3-eabc79479dc7")
 		)
 		(fp_line
-			(start 6 -7.000004)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -8978,7 +8978,7 @@
 			(uuid "5222611c-33ad-469a-9e47-93f7ea8a4a4f")
 		)
 		(fp_line
-			(start 7.000004 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -9372,7 +9372,7 @@
 			(uuid "99b7cb1d-d0d9-415c-9b34-b19e737b07ad")
 		)
 		(fp_line
-			(start -9.549998 -2.5)
+			(start -9.549999 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -9383,7 +9383,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549998 -2.5)
+			(end -9.549999 -2.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9617,13 +9617,13 @@
 			(at 171.836554 61.790467)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "7bb99a18-381a-497e-a153-73f73a840537")
+			(uuid "233e0c48-db73-492b-a412-d09bc599bbf4")
 		)
 		(point
 			(at 166.249671 61.048939)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "233e0c48-db73-492b-a412-d09bc599bbf4")
+			(uuid "7bb99a18-381a-497e-a153-73f73a840537")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
@@ -9784,7 +9784,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(uuid "b8078254-898e-42a0-8206-d63e1f421315")
@@ -9806,7 +9806,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -9859,7 +9859,7 @@
 			(uuid "36e6412f-20b9-49ce-8b66-210416803276")
 		)
 		(fp_line
-			(start -7.000004 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -9889,7 +9889,7 @@
 			(uuid "bed2fe95-6dba-4ebe-bc9c-a19e14f15a00")
 		)
 		(fp_line
-			(start -6 7.000004)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -9999,7 +9999,7 @@
 			(uuid "34ffbebd-dcc6-461a-a653-d0b19ed0a487")
 		)
 		(fp_line
-			(start 6 -7.000004)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -10019,7 +10019,7 @@
 			(uuid "1e483cf8-9e9a-4977-b975-9c07821e4ae7")
 		)
 		(fp_line
-			(start 7.000004 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -10071,7 +10071,7 @@
 			(uuid "068b569b-f893-40b2-8f66-18f95af450f7")
 		)
 		(fp_line
-			(start -7.000004 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -10091,7 +10091,7 @@
 			(uuid "0cfc3231-4efa-466e-a4a7-253767765343")
 		)
 		(fp_line
-			(start -6 7.000004)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -10201,7 +10201,7 @@
 			(uuid "a9408896-f0fc-4d55-ab3d-5d7d357e4d87")
 		)
 		(fp_line
-			(start 6 -7.000004)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -10221,7 +10221,7 @@
 			(uuid "2aa23d84-35dd-4dd4-97ea-7558946cd426")
 		)
 		(fp_line
-			(start 7.000004 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -10615,7 +10615,7 @@
 			(uuid "4bba02ea-b52f-4a5c-b7c1-8bd5068d80bd")
 		)
 		(fp_line
-			(start -9.549998 -2.5)
+			(start -9.549999 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -10626,7 +10626,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549998 -2.5)
+			(end -9.549999 -2.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -11027,7 +11027,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "eeeb4314-809b-4bbb-b183-67d2648f5121")
@@ -11049,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12103,13 +12103,13 @@
 			(at 150.969862 85.08906)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "7408c0be-5f87-4740-9b30-06e9e78a437c")
+			(uuid "d467d95e-1e53-4bd5-b3b6-c252a9c027cd")
 		)
 		(point
 			(at 145.344862 84.73906)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "d467d95e-1e53-4bd5-b3b6-c252a9c027cd")
+			(uuid "7408c0be-5f87-4740-9b30-06e9e78a437c")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -12270,7 +12270,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 8)
 			(layer "F.Fab")
 			(uuid "280cc643-ad84-4d9e-a426-0019b67cf90e")
@@ -12292,7 +12292,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
@@ -12415,7 +12415,7 @@
 			(uuid "f6a19b91-19b9-47b3-b9e9-565fc0b11661")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end -2 -7.7)
 			(stroke
 				(width 0.15)
@@ -12426,7 +12426,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12598,7 +12598,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12607,7 +12607,7 @@
 			(uuid "4b154485-5b61-4186-a4b3-64f838264132")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.15)
@@ -12618,7 +12618,7 @@
 		)
 		(fp_line
 			(start -2 -4.2)
-			(end -2 -4.550002)
+			(end -2 -4.550001)
 			(stroke
 				(width 0.15)
 				(type default)
@@ -12910,7 +12910,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12929,7 +12929,7 @@
 			(uuid "7f5f7e46-3911-4c82-bbfd-d2743b79366b")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.15)
@@ -13020,7 +13020,7 @@
 		)
 		(fp_line
 			(start 7 -5)
-			(end 9.55 -4.999998)
+			(end 9.55 -4.999999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13059,7 +13059,7 @@
 			(uuid "f0a57d29-3dd7-4440-a33d-81aefd24a19b")
 		)
 		(fp_line
-			(start 9.55 -4.999998)
+			(start 9.55 -4.999999)
 			(end 9.55 -2.5)
 			(stroke
 				(width 0.15)
@@ -13201,7 +13201,7 @@
 			(uuid "fa0bbf59-28e6-4d6d-83ec-336c27df2c8b")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end -2 -7.7)
 			(stroke
 				(width 0.15)
@@ -13212,7 +13212,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13251,7 +13251,7 @@
 			(uuid "c279d1ef-b18d-48df-b73e-104757a0fa18")
 		)
 		(fp_line
-			(start 1.999997 -4.25)
+			(start 1.999999 -4.25)
 			(end 2 -7.7)
 			(stroke
 				(width 0.15)
@@ -13282,7 +13282,7 @@
 		)
 		(fp_line
 			(start 4.54 -5.95)
-			(end 3.281 -4.690998)
+			(end 3.281 -4.690999)
 			(stroke
 				(width 0.15)
 				(type default)
@@ -13346,13 +13346,13 @@
 			(at 94.979685 116.127458)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "51b67241-9c5b-4a1c-bd08-008bcd75fb5b")
+			(uuid "1d72f6f5-b901-408e-bbfe-06639babac22")
 		)
 		(point
 			(at 89.360716 116.563713)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "1d72f6f5-b901-408e-bbfe-06639babac22")
+			(uuid "51b67241-9c5b-4a1c-bd08-008bcd75fb5b")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 8)
@@ -13553,7 +13553,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b079686-a08f-49e5-b51d-c58822791a4e")
+			(uuid "4ad65fce-a119-4779-b80e-059c9545a9c5")
 			(effects
 				(font
 					(size 1 1)
@@ -13566,7 +13566,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57cf83c3-6c1e-4709-a81a-4477261518cc")
+			(uuid "ff90d2db-1bec-41df-a093-4a1abf66f3ac")
 			(effects
 				(font
 					(size 1 1)
@@ -13877,7 +13877,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c2d25e2-eea3-4fe4-81e0-8d34be327be9")
+			(uuid "04e7a72b-87a1-4876-8c2b-7a75fc36cdac")
 			(effects
 				(font
 					(size 1 1)
@@ -13890,7 +13890,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61e5789e-701b-4d85-bef8-431efde41526")
+			(uuid "eb212d7a-60af-44cd-93be-2a297807a3cf")
 			(effects
 				(font
 					(size 1 1)
@@ -14057,7 +14057,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "8a01ebeb-08ba-4a11-b556-33c000b5f20c")
@@ -14079,7 +14079,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15298,7 +15298,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "Jumper"
 			(at -2.794 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15466,7 +15466,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d6cbbfb-3d95-407a-a37d-bdf68a4ff4dd")
+			(uuid "b3930769-fb78-4248-94fe-424b4aff293b")
 			(effects
 				(font
 					(size 1 1)
@@ -15479,7 +15479,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05f88fb0-5094-442d-a8cd-c8b77013e699")
+			(uuid "a0369d0f-8037-415a-89a7-5ef1a91120a7")
 			(effects
 				(font
 					(size 1 1)
@@ -15686,7 +15686,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eabe16b3-03d8-41ee-b09d-bc74d0223ad1")
+			(uuid "5e10520d-ba55-4058-b6e6-473667e489ae")
 			(effects
 				(font
 					(size 1 1)
@@ -15699,7 +15699,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2dc213f6-8e58-47fb-9c37-89a9a6c26bcc")
+			(uuid "ef3dd0d5-a0a4-4609-87ed-4474c3dfa864")
 			(effects
 				(font
 					(size 1 1)
@@ -15906,7 +15906,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d49edfd9-cb6b-4c03-8915-1409dc14364e")
+			(uuid "4ca580e5-0fd7-466e-90d5-47d837e9936a")
 			(effects
 				(font
 					(size 1 1)
@@ -15919,7 +15919,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2298fed-dcc2-4909-999e-f2127cc897d0")
+			(uuid "84d24b6b-7e1e-4452-9d36-2ca18ac841bf")
 			(effects
 				(font
 					(size 1 1)
@@ -15941,7 +15941,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700002)
+			(end -0.45 0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15951,7 +15951,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700002)
+			(end 0.45 -0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15960,7 +15960,7 @@
 			(uuid "0565eab0-3b3a-4168-80cf-bd999a21623d")
 		)
 		(fp_line
-			(start 0.45 -0.700002)
+			(start 0.45 -0.700001)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -15981,7 +15981,7 @@
 		)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700002)
+			(end -0.45 0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15991,7 +15991,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700002)
+			(end 0.45 -0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16000,7 +16000,7 @@
 			(uuid "5abb4755-4d2a-496a-98a1-6f98a7b909fc")
 		)
 		(fp_line
-			(start 0.45 -0.700002)
+			(start 0.45 -0.700001)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -16126,7 +16126,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4215f925-cc2d-4e54-b143-bc3aa9348400")
+			(uuid "eceec2fc-20ba-4b50-85f8-306f91407e55")
 			(effects
 				(font
 					(size 1 1)
@@ -16139,7 +16139,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "575ea871-b095-45e2-af3b-43a6c37892e4")
+			(uuid "664b71ea-0348-48ed-aa10-082d61395ab4")
 			(effects
 				(font
 					(size 1 1)
@@ -16306,7 +16306,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(uuid "07d9e126-48f2-45a9-b560-703b8ad60b5b")
@@ -16328,7 +16328,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -16684,7 +16684,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16753,7 +16753,7 @@
 			(uuid "0ed5a47e-e569-42cf-ab2b-1cc86b4502cb")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.15)
@@ -16902,7 +16902,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "22b9416f-8f80-40da-9de3-7161140f5a40")
+			(uuid "f19530e4-ffc6-4053-b61e-089a95ad8f8e")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -16912,7 +16912,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f19530e4-ffc6-4053-b61e-089a95ad8f8e")
+			(uuid "22b9416f-8f80-40da-9de3-7161140f5a40")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -17006,7 +17006,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17052,10 +17052,10 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c4d1ce88-3cb0-4fe8-8b84-80e87a78cd3a")
+			(uuid "2c5f8593-370a-4c81-8fbb-48a207649603")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.15)
@@ -17092,7 +17092,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "2c5f8593-370a-4c81-8fbb-48a207649603")
+			(uuid "c4d1ce88-3cb0-4fe8-8b84-80e87a78cd3a")
 		)
 		(fp_line
 			(start 9.55 -2.5)
@@ -17137,7 +17137,7 @@
 			(uuid "d48cdc40-5a8f-4b47-b9cb-a2a40162f0db")
 		)
 		(fp_line
-			(start -9.55 -2.499998)
+			(start -9.55 -2.499999)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -17154,11 +17154,11 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a378b491-7a30-4624-9b7d-fd2447f5136d")
+			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499998)
+			(end -9.55 -2.499999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17184,7 +17184,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2f66986-8587-432b-990d-b23a31c653e6")
+			(uuid "a378b491-7a30-4624-9b7d-fd2447f5136d")
 		)
 		(fp_line
 			(start -7 -5)
@@ -17317,7 +17317,7 @@
 			(uuid "71e8b74d-06f8-4f00-a09a-8d24be796676")
 		)
 		(fp_line
-			(start 4.549998 -5.957)
+			(start 4.549999 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.15)
@@ -17344,7 +17344,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
+			(uuid "d2f66986-8587-432b-990d-b23a31c653e6")
 		)
 		(fp_line
 			(start 7.499999 -7.5)
@@ -17382,13 +17382,13 @@
 			(at 193.041664 75.401399)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "5a39b9cb-7939-4c54-94a9-7d202a584d25")
+			(uuid "337e4102-d34a-4e02-b2cf-591bc5146f7e")
 		)
 		(point
 			(at 187.562897 74.079945)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "337e4102-d34a-4e02-b2cf-591bc5146f7e")
+			(uuid "5a39b9cb-7939-4c54-94a9-7d202a584d25")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
@@ -17693,7 +17693,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4395b831-860a-4d61-b5ca-326787be71e8")
+			(uuid "f2302ac7-f783-46ac-9149-740543bed033")
 			(effects
 				(font
 					(size 1 1)
@@ -17706,7 +17706,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88d8f23c-4cdc-4df6-b5e6-7bcfcff0dc2b")
+			(uuid "1b871906-3db1-44a4-b097-639682258fdb")
 			(effects
 				(font
 					(size 1 1)
@@ -17873,7 +17873,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "11f28744-2ff1-4bb6-9760-d734293b8b37")
@@ -17895,7 +17895,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18949,13 +18949,13 @@
 			(at 114.985 78.068484)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "93d9ee6a-5a43-4afc-b915-05d52996878b")
+			(uuid "a693d8e7-50fb-4a47-8dae-2b56a526a368")
 		)
 		(point
 			(at 109.36 77.718484)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "a693d8e7-50fb-4a47-8dae-2b56a526a368")
+			(uuid "93d9ee6a-5a43-4afc-b915-05d52996878b")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -19292,7 +19292,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "0976d8ae-04d8-4852-bc55-8ed4022c6565")
@@ -19314,7 +19314,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20575,7 +20575,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c44c35e8-8b9b-425c-ab82-9a46cdfd3000")
+			(uuid "aa09e974-fb51-4ee9-934c-c922315ebe84")
 			(effects
 				(font
 					(size 1 1)
@@ -20588,7 +20588,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c74331c0-1ee5-4e4b-abee-b42b29d04a05")
+			(uuid "dc70ba08-3c9e-4e7f-a7a1-08b2807bf971")
 			(effects
 				(font
 					(size 1 1)
@@ -20795,7 +20795,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f13461f-0200-438b-9075-f3eeff81a90e")
+			(uuid "393d539f-9f0a-40ec-b20d-c9c53afdee5b")
 			(effects
 				(font
 					(size 1 1)
@@ -20808,7 +20808,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b664ad2d-892f-4b1a-8e91-0859de09c3d3")
+			(uuid "f2eab38f-3e3f-4255-8ee4-f1fd003ef906")
 			(effects
 				(font
 					(size 1 1)
@@ -21015,7 +21015,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f7fce6b-c924-4513-a141-f78852a00ead")
+			(uuid "e0ed24fd-b77c-4444-b8f9-1eae0ea02db7")
 			(effects
 				(font
 					(size 1 1)
@@ -21028,7 +21028,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1909badc-ef3d-4a33-b2e4-63f1c1c36471")
+			(uuid "963e86ba-4680-430e-8055-57750bf675ff")
 			(effects
 				(font
 					(size 1 1)
@@ -21195,7 +21195,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "2916d1c4-6879-4c7c-b610-f3fb1ad3e9a6")
@@ -21217,7 +21217,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22438,7 +22438,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 3)
 			(layer "F.Fab")
 			(uuid "d1d100c2-9075-4109-8a10-1cfc9484bb24")
@@ -22460,7 +22460,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -22503,7 +22503,7 @@
 			(uuid "9bc38002-302a-4032-a287-6dcbbeedccdd")
 		)
 		(fp_line
-			(start -6.999996 -6)
+			(start -6.999999 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -22543,7 +22543,7 @@
 			(uuid "0cea58b1-1a69-4bc1-94da-d0b740ae1a61")
 		)
 		(fp_line
-			(start -6 6.999996)
+			(start -6 6.999999)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -22653,7 +22653,7 @@
 			(uuid "9a8cc02b-10f7-46f5-8fbf-dd8cd5d1fdce")
 		)
 		(fp_line
-			(start 6 -6.999996)
+			(start 6 -6.999999)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -22673,7 +22673,7 @@
 			(uuid "058124c5-19b6-40e4-bb59-e1a2927e50b4")
 		)
 		(fp_line
-			(start 6.999996 6)
+			(start 6.999999 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -22725,7 +22725,7 @@
 			(uuid "0a321a7d-66b1-410c-83b9-94dcfa452ca7")
 		)
 		(fp_line
-			(start -6.999996 -6)
+			(start -6.999999 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -22745,7 +22745,7 @@
 			(uuid "c7020abd-5f72-4358-944e-790f6bac1951")
 		)
 		(fp_line
-			(start -6 6.999996)
+			(start -6 6.999999)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -22806,7 +22806,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999997 -3.7)
+			(end 0.999999 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22855,7 +22855,7 @@
 			(uuid "6d09d230-9d9b-4f56-955a-9a4b4f105a4b")
 		)
 		(fp_line
-			(start 6 -6.999996)
+			(start 6 -6.999999)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -22905,7 +22905,7 @@
 			(uuid "19d769b5-2ef3-4fdb-a711-298b068871f5")
 		)
 		(fp_line
-			(start 6.999996 6)
+			(start 6.999999 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -22925,7 +22925,7 @@
 			(uuid "001b2fc7-a6b8-48f0-8538-d3fb03b1c196")
 		)
 		(fp_arc
-			(start 0.999997 -3.7)
+			(start 0.999999 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -23128,7 +23128,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999997 -3.7)
+			(end 0.999999 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23247,7 +23247,7 @@
 			(uuid "e217b02f-86e9-4644-9853-f3b979d54854")
 		)
 		(fp_arc
-			(start 0.999997 -3.7)
+			(start 0.999999 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -23785,7 +23785,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "6acb3043-8e75-4809-be14-f26efcd05715")
@@ -23807,7 +23807,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24861,13 +24861,13 @@
 			(at 132.977431 75.387259)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "7cb571de-a1a1-4f62-84c7-b001e1188d7d")
+			(uuid "5b8d1053-0822-47bb-9807-911918ca11ee")
 		)
 		(point
 			(at 127.352431 75.037259)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "5b8d1053-0822-47bb-9807-911918ca11ee")
+			(uuid "7cb571de-a1a1-4f62-84c7-b001e1188d7d")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -25988,7 +25988,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c332ba96-dade-4b06-ad58-dd965b42784e")
+			(uuid "89478de7-17c1-4365-a41f-2cbac3de9eac")
 			(effects
 				(font
 					(size 1 1)
@@ -26001,7 +26001,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f279ce5-4550-4f86-999f-dd237a2ae35a")
+			(uuid "afb35a19-391a-4779-8ce3-ad7d41ec393e")
 			(effects
 				(font
 					(size 1 1)
@@ -26168,7 +26168,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(uuid "7c57abe0-42f0-4876-8413-684b38e9073f")
@@ -26190,7 +26190,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -26546,7 +26546,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26615,7 +26615,7 @@
 			(uuid "a05c638f-3f72-42c0-91f2-40c1cb3a481e")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.15)
@@ -26764,7 +26764,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
+			(uuid "3dc9d7a4-0001-4958-a467-4a40bbf22c9c")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -26774,7 +26774,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
+			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -26868,7 +26868,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26914,10 +26914,10 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3dc9d7a4-0001-4958-a467-4a40bbf22c9c")
+			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.15)
@@ -26954,7 +26954,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
+			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
 		)
 		(fp_line
 			(start 9.55 -2.5)
@@ -26999,7 +26999,7 @@
 			(uuid "ea2fb329-6d5d-4481-8dc7-d91f73f8eb25")
 		)
 		(fp_line
-			(start -9.55 -2.499998)
+			(start -9.55 -2.499999)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -27020,7 +27020,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499998)
+			(end -9.55 -2.499999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27179,7 +27179,7 @@
 			(uuid "61098ff1-a305-4d78-8e82-97f27f9da656")
 		)
 		(fp_line
-			(start 4.549998 -5.957)
+			(start 4.549999 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.15)
@@ -27410,7 +27410,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "Jumper"
 			(at -2.794 0 180)
 			(layer "B.SilkS")
 			(hide yes)
@@ -27540,7 +27540,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "Jumper"
 			(at -2.794 0 180)
 			(layer "B.SilkS")
 			(hide yes)
