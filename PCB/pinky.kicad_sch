@@ -11,7 +11,6 @@
 		(comment 1 "Author: rawrex")
 	)
 	(lib_symbols
-
 		(symbol "Pinky:D_SOD123"
 			(pin_numbers
 				(hide yes)
@@ -202,6 +201,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pinky:JST_PH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "JST_PH"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Pinky:JST_PH"
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JST_PH_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JST_PH_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Pinky:Jumper"
 			(pin_numbers
 				(hide yes)
@@ -341,6 +531,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pinky:MSK12C02"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW_PWR"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MSK12C02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Pinky:MSK12C02"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MSK12C02_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MSK12C02_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Pinky:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -435,6 +815,170 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Pinky:ResetSW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RESET"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ResetSW"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Pinky:ResetSW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ResetSW_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1160,8 +1704,6 @@
 			)
 			(embedded_fonts no)
 		)
-
-
 		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
@@ -1600,6 +2142,12 @@
 		(uuid "148f8a95-60bf-48d7-8b24-0123b0453848")
 	)
 	(junction
+		(at 50.8 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15878f4b-2a48-4f5a-a336-56d63a4c7494")
+	)
+	(junction
 		(at 110.49 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1756,12 +2304,6 @@
 		(uuid "f4aff21c-41fe-4a41-9f89-e92384ddb530")
 	)
 	(junction
-		(at 50.8 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f60f7bd0-7d9e-4815-bca6-4cdc1265bc88")
-	)
-	(junction
 		(at 93.98 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1780,7 +2322,7 @@
 		(uuid "1319e85f-5550-4023-85b0-c43051843c5d")
 	)
 	(no_connect
-		(at 64.77 123.19)
+		(at 62.23 123.19)
 		(uuid "3016c6a1-16a9-428a-9392-da5eca4aed1f")
 	)
 	(no_connect
@@ -1821,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 114.3) (xy 55.88 114.3)
+			(xy 48.26 114.3) (xy 50.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 55.88 127)
+			(xy 48.26 127) (xy 50.8 127)
 		)
 		(stroke
 			(width 0)
@@ -1948,16 +2490,6 @@
 			(type default)
 		)
 		(uuid "327e0d7b-8172-4110-8962-c59e963cc266")
-	)
-	(wire
-		(pts
-			(xy 67.31 118.11) (xy 64.77 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341c851f-8f3a-45aa-b88c-17591c513a88")
 	)
 	(wire
 		(pts
@@ -2111,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 54.61 120.65)
+			(xy 50.8 120.65) (xy 52.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 114.3) (xy 55.88 113.03)
+			(xy 50.8 114.3) (xy 50.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 127) (xy 55.88 128.27)
+			(xy 50.8 127) (xy 50.8 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3343,7 +3875,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 67.31 118.11 270)
+		(at 62.23 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3353,7 +3885,7 @@
 		(dnp no)
 		(uuid "141f259a-1a56-46aa-bae6-6be390066d37")
 		(property "Reference" "#PWR6"
-			(at 63.5 118.11 0)
+			(at 58.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3364,7 +3896,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 70.866 118.11 0)
+			(at 65.786 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3374,7 +3906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 118.11 0)
+			(at 62.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3385,7 +3917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 118.11 0)
+			(at 62.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3396,7 +3928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 67.31 118.11 0)
+			(at 62.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3921,7 +4453,7 @@
 	)
 	(symbol
 		(lib_id "Pinky:MSK12C02")
-		(at 59.69 120.65 0)
+		(at 57.15 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3930,8 +4462,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b2283d2-68f9-40a8-9a40-e386244682ad")
-		(property "Reference" "SW_PWR"
-			(at 59.69 115.57 0)
+		(property "Reference" "SW_PWR1"
+			(at 57.658 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3941,7 +4473,7 @@
 			)
 		)
 		(property "Value" "MSK12C02"
-			(at 59.69 125.73 0)
+			(at 57.15 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3952,7 +4484,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:MSK12C02"
-			(at 59.69 130.81 0)
+			(at 57.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +4495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 128.27 0)
+			(at 57.15 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,7 +4506,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 59.69 120.65 0)
+			(at 57.15 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +4528,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW1")
+					(reference "SW_PWR1")
 					(unit 1)
 				)
 			)
@@ -4140,39 +4672,6 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 33.02 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 33.02 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 33.02 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
 			(at 33.02 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4833,8 +5332,9 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b6b1593-51f1-40c8-89c3-442c47f55797")
-		(property "Reference" "RESET"
+		(property "Reference" "RESET19"
 			(at 175.26 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4895,7 +5395,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW19")
+					(reference "RESET19")
 					(unit 1)
 				)
 			)
@@ -5350,7 +5850,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 128.27 0)
+		(at 50.8 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5361,7 +5861,7 @@
 		(fields_autoplaced yes)
 		(uuid "722e37e5-7ab4-4acb-846d-463ab9d155c6")
 		(property "Reference" "#PWR1"
-			(at 55.88 134.62 0)
+			(at 50.8 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,7 +5872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 133.35 0)
+			(at 50.8 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5382,7 +5882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 128.27 0)
+			(at 50.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5393,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 128.27 0)
+			(at 50.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +5904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 128.27 0)
+			(at 50.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7112,7 +7612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 113.03 180)
+		(at 50.8 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7123,7 +7623,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8f30b02-7baf-4e33-a818-4a0fb6edca4b")
 		(property "Reference" "#PWR2"
-			(at 55.88 106.68 0)
+			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7134,7 +7634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 107.95 0)
+			(at 50.8 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7144,7 +7644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 113.03 0)
+			(at 50.8 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,7 +7655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 113.03 0)
+			(at 50.8 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7166,7 +7666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 113.03 0)
+			(at 50.8 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
