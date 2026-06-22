@@ -11,7 +11,7 @@ This repo: PCB, footprints, and symbols only.
 | `PCB/pinky.kicad_sch` | Schematic (rev 0.1) |
 | `PCB/pinky.kicad_pcb` | PCB layout, 2-layer, 1.6 mm |
 | `PCB/pinky.kicad_pro` | Project settings (DRC rules, net classes, BOM config) |
-| `PCB/Pinky.pretty/` | **7 custom footprints** + **1 symbol library file** (`pinky.kicad_sym`). Case-sensitive — dir name is `Pinky.pretty`, not `pinky.pretty` |
+| `PCB/Pinky.pretty/` | **7 custom footprints** + **1 symbol library** (`pinky.kicad_sym`). Case-sensitive — dir name is `Pinky.pretty`, not `pinky.pretty` |
 | `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `Pinky` → `${KIPRJMOD}/Pinky.pretty` |
 | `PCB/sym-lib-table` | Symbol library table — references `pinky.kicad_sym` inside `Pinky.pretty/` |
 
@@ -23,6 +23,7 @@ This repo: PCB, footprints, and symbols only.
 - **`pinky.kicad_prl`** — auto-generated KiCad UI state (layer visibility, window positions). Not for manual editing.
 - **`~*.lck` files** in `PCB/` — KiCad lock files, gitignored by pattern `PCB/~*.lck`.
 - **`.bak` files** in `Pinky.pretty/` — remove them, they don't belong in the library directory.
+- **Symbol and footprint names must match** — every symbol in `pinky.kicad_sym` references a footprint in `Pinky.pretty/` by name. Renames must be kept in sync.
 
 ## Custom footprints (7)
 
@@ -30,27 +31,31 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 
 | Footprint | Used for |
 |---|---|
-| `Diode_SOD123` | 1N4148W SMD diodes (34 per board, bottom side) |
+| `D_SOD123` | 1N4148W SMD diodes (34 per board, bottom side) |
 | `JST_PH_reversible` | Battery connector (optional, requires jumper bridge) |
-| `Jumper` | Solder jumper pads (JP1-JP4) |
-| `Kailh_socket_PG1350_optional_reversible` | Kailh Choc keyswitch sockets (34 per board) |
+| `Jumper` | Solder jumper pads (JP1–JP4) |
+| `Switch` | Kailh Choc PG1350 keyswitch sockets (34 per board) |
 | `MSK12C02_reversible` | Power switch |
 | `nice_nano` | MCU module |
 | `ResetSW` | Tactile reset button |
 
-Plus system lib: `MountingHole:MountingHole_2.2mm_M2_ISO7380` (5 per board).
+Plus system lib: `MountingHole:MountingHole_2.2mm_M2` (5 per board).
+
+**Naming is consistent:** each footprint name matches its file name and its symbol name in `pinky.kicad_sym`.
 
 ## Custom symbols
 
-3 unique symbol types in `pinky.kicad_sym` (7 definitions including unit variants):
+5 unique symbol types in `pinky.kicad_sym` (10 definitions including unit variants):
 
 | Symbol | Used for |
 |---|---|
-| `Device_Jumper_NO_Small` | Solder jumper pads (JP1–JP4) |
-| `MX_SW_HS` | Kailh Choc keyswitch sockets (34 per board) |
+| `Jumper` | Solder jumper pads (JP1–JP4) |
 | `nice_nano` | MCU module |
+| `Switch` | Kailh Choc keyswitch sockets (34 per board) |
+| `D_SOD123` | 1N4148W SMD diodes (34 per board) |
+| `MountingHole` | Mounting holes (5 per board) |
 
-**Non-obvious mapping:** `Pinky:MX_SW_HS` (symbol) ↔ `Pinky:Kailh_socket_PG1350_optional_reversible` (footprint).
+**Symbol-to-footprint mapping is by identical name** — e.g. `Pinky:Switch` (symbol) ↔ `Pinky:Switch` (footprint). No cross-referencing needed.
 
 ## Hardware & manufacturing
 
@@ -66,7 +71,6 @@ Plus system lib: `MountingHole:MountingHole_2.2mm_M2_ISO7380` (5 per board).
 
 - **Only one footprint library** (`Pinky`). System libs (e.g. `MountingHole`) come from KiCad's global table.
 - **DRC:** min track 0.127 mm, min clearance 0.0 mm, min copper-to-edge 0.5 mm. Violations are `error` severity.
-- **SMD diodes (1N4148W)** in SOD123 package on **bottom side**.
 - **Default net class:** track 0.127 mm, via 0.6/0.3 mm, clearance 0.127 mm.
 
 ## What not to modify
