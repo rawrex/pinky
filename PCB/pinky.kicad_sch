@@ -741,6 +741,17 @@
 					)
 				)
 			)
+			(property "ki_fp_filters" "Pinky:Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "Switch_0_1"
 				(polyline
 					(pts
@@ -902,6 +913,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pinky:nice_nano"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

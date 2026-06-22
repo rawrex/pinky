@@ -202,6 +202,17 @@
 				)
 			)
 		)
+		(property "ki_fp_filters" "Pinky:nice_nano"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "nice_nano_0_1"
 			(rectangle
 				(start -15.24 16.51)
@@ -719,6 +730,17 @@
 			)
 		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Pinky:Switch"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
