@@ -24965,7 +24965,7 @@
 			(layers "*.Cu" "*.SilkS" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(U1-D0{slash}0.08-Pad2)")
-			(pinfunction "D0/0.08_2")
+			(pinfunction "D0/P0.08_2")
 			(pintype "bidirectional+no_connect")
 			(uuid "db0b5805-bf6e-4a66-8b98-d907945d0655")
 		)
