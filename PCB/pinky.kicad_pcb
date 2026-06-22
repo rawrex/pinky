@@ -5084,7 +5084,7 @@
 			)
 		)
 	)
-	(footprint "Pinky:JST_PH_reversible"
+	(footprint "Pinky:JST_PH"
 		(layer "F.Cu")
 		(uuid "4fa7e0c7-23bb-40fb-beb5-e8a2140224b0")
 		(at 163.225 128.35 180)
@@ -18509,7 +18509,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Pinky:MSK12C02_reversible"
+	(footprint "Pinky:MSK12C02"
 		(layer "F.Cu")
 		(uuid "a045f640-8670-46e0-bdbf-d01fcac2a5dc")
 		(at 100.5 55.35 -90)

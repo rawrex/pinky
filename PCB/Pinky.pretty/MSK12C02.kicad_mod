@@ -1,4 +1,4 @@
-(footprint "MSK12C02_reversible"
+(footprint "MSK12C02"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MSK12C02_reversible"
+	(property "Value" "MSK12C02"
 		(at 1.425 -2 0)
 		(layer "F.Fab")
 		(uuid "e0a27b3b-29d5-44c8-a197-2d3fcefe6d36")

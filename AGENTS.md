@@ -32,10 +32,10 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 | Footprint | Used for |
 |---|---|
 | `D_SOD123` | 1N4148W SMD diodes (17 per board, bottom side) |
-| `JST_PH_reversible` | Battery connector (optional, requires jumper bridge) |
+| `JST_PH` | Battery connector (optional, requires jumper bridge) |
 | `Jumper` | Solder jumper pads (JP1–JP4) |
 | `Switch` | Kailh Choc PG1350 keyswitch sockets (17 per board) |
-| `MSK12C02_reversible` | Power switch |
+| `MSK12C02` | Power switch |
 | `nice_nano` | MCU module |
 | `ResetSW` | Tactile reset button |
 
@@ -45,7 +45,7 @@ Plus system lib: `MountingHole:MountingHole_2.2mm_M2` (5 per board).
 
 ## Custom symbols
 
-5 unique symbol types in `pinky.kicad_sym` (10 definitions including unit variants):
+8 unique symbol types in `pinky.kicad_sym` (16 definitions including unit variants):
 
 | Symbol | Used for |
 |---|---|
@@ -54,6 +54,9 @@ Plus system lib: `MountingHole:MountingHole_2.2mm_M2` (5 per board).
 | `Switch` | Kailh Choc keyswitch sockets (17 per board) |
 | `D_SOD123` | 1N4148W SMD diodes (17 per board) |
 | `MountingHole` | Mounting holes (5 per board) |
+| `ResetSW` | Tactile reset button |
+| `MSK12C02` | Power switch |
+| `JST_PH` | Battery connector (optional, requires jumper bridge) |
 
 **Symbol-to-footprint mapping is by identical name** — e.g. `Pinky:Switch` (symbol) ↔ `Pinky:Switch` (footprint). No cross-referencing needed.
 
