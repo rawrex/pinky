@@ -3563,7 +3563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00b1af25-090b-4bfe-8839-090c600a2893")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG5"
 			(at 55.245 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3575,7 +3575,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 57.15 74.9299 90)
+			(at 57.15 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3583,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3625,7 +3624,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG05")
+					(reference "#FLG5")
 					(unit 1)
 				)
 			)
@@ -4247,18 +4246,17 @@
 		(dnp no)
 		(uuid "1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
 		(property "Reference" "JP5"
-			(at 33.528 77.47 90)
+			(at 30.988 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Jumper"
-			(at 34.29 78.7399 90)
+			(at 36.322 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4264,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
@@ -4971,7 +4968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a701e0-db30-4951-906e-cd6c8ae463d2")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG4"
 			(at 57.785 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4983,7 +4980,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 59.69 81.2799 90)
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +4988,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5033,7 +5029,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG04")
+					(reference "#FLG4")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5059,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 74.9299 90)
+			(at 62.23 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,7 +5067,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5323,7 +5318,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 45.466 76.708 0)
+			(at 41.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5390,18 +5385,17 @@
 		(dnp no)
 		(uuid "4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(property "Reference" "JP8"
-			(at 48.768 77.47 90)
+			(at 46.228 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Jumper"
-			(at 49.53 78.7399 90)
+			(at 51.562 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5409,7 +5403,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
@@ -6787,18 +6780,17 @@
 		(dnp no)
 		(uuid "7dcb223b-3203-46e5-b917-f870accb5b07")
 		(property "Reference" "JP10"
-			(at 58.928 77.47 90)
+			(at 56.388 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Jumper"
-			(at 59.69 78.7399 90)
+			(at 61.722 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6806,7 +6798,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
@@ -7027,18 +7018,17 @@
 		(dnp no)
 		(uuid "837f6c0c-0404-45c0-82cc-e00589df18e2")
 		(property "Reference" "JP9"
-			(at 53.848 77.47 90)
+			(at 51.308 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Jumper"
-			(at 54.61 78.7399 90)
+			(at 56.642 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +7036,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
@@ -7804,18 +7793,17 @@
 		(dnp no)
 		(uuid "acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(property "Reference" "JP6"
-			(at 38.608 77.47 90)
+			(at 36.068 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Jumper"
-			(at 39.37 78.7399 90)
+			(at 41.402 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7823,7 +7811,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
@@ -8072,7 +8059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ccc37e-8950-43ae-aa6d-3c3b807f14ec")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG6"
 			(at 45.085 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8084,7 +8071,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 46.99 74.9299 90)
+			(at 46.99 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +8079,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8134,7 +8120,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG06")
+					(reference "#FLG6")
 					(unit 1)
 				)
 			)
@@ -9169,18 +9155,17 @@
 		(dnp no)
 		(uuid "f574c61c-2757-42be-8f64-9a7e500f8c33")
 		(property "Reference" "JP7"
-			(at 43.688 77.47 90)
+			(at 41.148 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Jumper"
-			(at 44.45 78.7399 90)
+			(at 46.482 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,7 +9173,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
