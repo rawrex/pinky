@@ -7,7 +7,7 @@
 		(at 0 2.55 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "213185b9-461a-4d69-b0fc-9498c21873c8")
+		(uuid "de3c786b-6529-4340-a8d2-1e60dbb26509")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -2.55 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ce0315f-9b60-41a3-8912-2b18419d2e33")
+		(uuid "8e5f1193-2a41-4f19-9ab9-fc3c046a31e8")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9113ef9c-9aa6-4145-b488-556e36ee109d")
+		(uuid "de4f29f9-21ed-4d43-9816-25481dc8ff06")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "365f0f8e-378d-457d-8748-f92ae553d82a")
+		(uuid "91cc260e-7d7b-48a1-8045-294757a015b7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "be8aa342-cb98-47bf-b8d6-21c5e5b00e68")
+		(uuid "720bf2a2-41f4-4df4-afbc-21346e1fa486")
 	)
 	(fp_line
 		(start -3 -1.75)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e25756ca-a06f-4eed-b219-db36885518c0")
+		(uuid "1486a5cb-92a7-4639-a80c-65ea357e33e0")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ccb2c52b-5f5c-4597-8c83-cc87d87dee35")
+		(uuid "5ee8e857-5b3f-47e0-a537-5e99bfaed4ac")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "07bd3b64-9b33-4e17-b590-7df9711c4206")
+		(uuid "54bfeecd-d066-4088-9a8d-805c2b1c6db0")
 	)
 	(fp_line
 		(start 3 -1.75)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "227a8cde-f4d3-4691-a8cf-c13d15b4ac09")
+		(uuid "abde8e45-2099-42ca-88b5-d22ee0845cff")
 	)
 	(fp_line
 		(start 3 1.75)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "605ca12b-42af-4d04-a8c7-8f3e96a883a4")
+		(uuid "1a949f80-e615-428a-8b4a-9e1104240b5d")
 	)
 	(fp_line
 		(start -3 -1.75)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "81248fa5-14e2-4a6c-9148-bfb0264608f9")
+		(uuid "692b8b7c-d64e-4edd-8d20-a7b954d5e022")
 	)
 	(fp_line
 		(start -3 -1.5)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "d6015310-ffcf-40ce-a9f2-33d3bf714fb4")
+		(uuid "ee6d6ba3-49db-47d2-81d3-97c5f36b7944")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "4887e998-777d-4d52-9470-b6f622412f15")
+		(uuid "99890eb9-47ee-47d3-8703-e8d6a290e16f")
 	)
 	(fp_line
 		(start 3 -1.75)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "3eb54774-d710-465a-b31e-a2cd49bed9ad")
+		(uuid "f73b3d4f-21b7-4a7a-b066-11247309ee57")
 	)
 	(fp_line
 		(start 3 1.5)
@@ -159,7 +159,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "3d8c05ce-2175-43a9-855c-04d77d8f4d1b")
+		(uuid "f62d5036-307d-4ff4-8c99-4a0f2af319af")
 	)
 	(fp_line
 		(start 3 1.75)
@@ -169,12 +169,12 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "fb80d9b9-7d17-4912-954c-80fa13913132")
+		(uuid "61b79438-da00-4cd3-942a-c6e3832ed745")
 	)
 	(fp_text user "RESET"
 		(at -0.05 0.05 0)
 		(layer "F.SilkS")
-		(uuid "5350232b-9c5e-4e8b-8630-f021bf30dc06")
+		(uuid "a1891fe9-4c95-472d-8d72-cdafea1b16da")
 		(effects
 			(font
 				(size 1 1)
@@ -185,7 +185,7 @@
 	(fp_text user "RESET"
 		(at 0.077 0.05 0)
 		(layer "B.SilkS")
-		(uuid "efa7b003-b763-434d-bc0e-f6723696f9ff")
+		(uuid "295b166a-f615-47b0-bffa-4038f535e963")
 		(effects
 			(font
 				(size 1 1)
@@ -200,7 +200,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask" "F.SilkS")
 		(remove_unused_layers no)
-		(uuid "caf8c732-6006-44dc-8159-ce39a43f7edc")
+		(uuid "0f33dd36-62c1-46e5-8a5e-92d634513bc6")
 	)
 	(pad "2" thru_hole circle
 		(at -3.25 0)
@@ -208,7 +208,18 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask" "F.SilkS")
 		(remove_unused_layers no)
-		(uuid "d63aa7d8-3fd2-4d3f-8941-ca5a31268443")
+		(uuid "ef32bda4-d888-4a53-949a-05608dc29f84")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Pinky.pretty/reset.step"
+		(offset
+			(xyz 8.5 -1.4 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
