@@ -2136,6 +2136,12 @@
 		(uuid "024c3622-fe24-4ae0-adb2-c880e0e280f6")
 	)
 	(junction
+		(at 110.49 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13b63d4d-b362-45c3-ad88-a8c024871775")
+	)
+	(junction
 		(at 99.06 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2146,12 +2152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15878f4b-2a48-4f5a-a336-56d63a4c7494")
-	)
-	(junction
-		(at 110.49 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1718738f-2d97-4f60-87f2-033dbb0d1412")
 	)
 	(junction
 		(at 45.72 80.01)
@@ -2196,10 +2196,10 @@
 		(uuid "39c1d2a0-af82-47a6-8c75-c27cd65380c1")
 	)
 	(junction
-		(at 93.98 67.31)
+		(at 110.49 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4411fb5f-7b12-4e07-9a88-0f2f1dd7368d")
+		(uuid "3f914413-e4ce-4907-8006-42b899a17e66")
 	)
 	(junction
 		(at 132.08 77.47)
@@ -2214,22 +2214,10 @@
 		(uuid "56205aa6-c3c3-4035-8b32-9829109200fc")
 	)
 	(junction
-		(at 110.49 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e7466d4-730d-4998-a25d-2fa66a069513")
-	)
-	(junction
 		(at 58.42 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5eb51eee-137b-4d66-b472-52090b5a6cde")
-	)
-	(junction
-		(at 99.06 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6216c961-9844-49ba-91ba-a21f24a6bfc1")
 	)
 	(junction
 		(at 53.34 74.93)
@@ -2304,12 +2292,6 @@
 		(uuid "ca0f872d-8d5a-4717-9de0-8a2bddb4ac1b")
 	)
 	(junction
-		(at 110.49 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce00762f-cbf8-490b-b69c-a72ac3ebd5c4")
-	)
-	(junction
 		(at 127 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2320,6 +2302,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd8f4f72-62e5-4de7-a35d-c415210a96b7")
+	)
+	(junction
+		(at 110.49 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9d28c9-9cf8-4e19-a79a-5a7429954109")
 	)
 	(junction
 		(at 116.84 30.48)
@@ -2483,16 +2471,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 110.49 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d291e97-db7b-492b-a503-d3fcf530210c")
-	)
-	(wire
-		(pts
 			(xy 33.02 125.73) (xy 40.64 125.73)
 		)
 		(stroke
@@ -2593,7 +2571,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 77.47) (xy 99.06 77.47)
+			(xy 91.44 77.47) (xy 110.49 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 48.26) (xy 93.98 67.31)
+			(xy 93.98 48.26) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2740,16 +2718,6 @@
 			(type default)
 		)
 		(uuid "7b2d217b-025c-48b6-8dfe-8a7dedc341a9")
-	)
-	(wire
-		(pts
-			(xy 93.98 67.31) (xy 93.98 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d2623e9-ae6b-4d46-8b44-3f8d935e3d87")
 	)
 	(wire
 		(pts
@@ -5191,111 +5159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_SOD123")
-		(at 99.06 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "448e4710-476c-44c5-b0f0-7e27b648e95f")
-		(property "Reference" "D3"
-			(at 101.6 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_SOD123"
-			(at 101.092 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pinky:D_SOD123"
-			(at 99.06 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 99.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 99.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 99.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34e66456-5479-45f1-ae63-a7c2e9a35c6f")
-		)
-		(pin "2"
-			(uuid "de3459e0-a7ed-4a70-9075-72340b2b94c2")
-		)
-		(instances
-			(project "pinky"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 38.1 74.93 270)
 		(unit 1)
@@ -7509,87 +7372,6 @@
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pinky:Switch")
-		(at 96.52 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0689e1b-8703-4a10-927c-caf698818cb2")
-		(property "Reference" "SW4"
-			(at 99.568 68.834 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Switch"
-			(at 96.52 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Pinky:Switch"
-			(at 96.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33fa9a1c-8be6-49b2-84b8-f12f091d9874")
-		)
-		(pin "2"
-			(uuid "d9f2e905-80cf-4b03-a045-c60d8d71b8d4")
-		)
-		(instances
-			(project "pinky"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
