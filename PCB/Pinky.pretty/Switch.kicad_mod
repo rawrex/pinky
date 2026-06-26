@@ -9,7 +9,7 @@
 		(at 0 -8.89 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b55d37e6-1745-4458-bf51-31d371257928")
+		(uuid "6ae04e01-3d1e-4427-ac76-60a658fbfc40")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "SW_Kailh_Choc_PG1350"
 		(at 0 9.9 0)
 		(layer "F.Fab")
-		(uuid "53618675-2400-48ad-93f5-12d5163d85f9")
+		(uuid "b8e4b974-d9db-44e6-a18d-db43e957fa27")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "81a59eee-3a89-49d5-b773-70909bfa9514")
+		(uuid "10b64ad0-fa98-4099-8767-6467a557b72e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9f802453-ffa2-4aac-91ff-08238a8972f7")
+		(uuid "e4de6872-e3d7-406d-a023-3471708cb396")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1199,7 +1199,7 @@
 		(uuid "339d3f8e-fdb2-49a5-9237-48ca9f910179")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/SW_Kailh_Choc_V1.stp"
+	(model "${KIPRJMOD}/switch.stp"
 		(offset
 			(xyz 0 0 0)
 		)
