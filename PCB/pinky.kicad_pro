@@ -87,18 +87,6 @@
           "Intentional layer split. Used to configure for which side of the split the PCB is used"
         ],
         [
-          "unconnected_items|109597368|114171387|F.Cu|4|537aeabb-d11f-46b8-8f2e-f088ac22490b|537aeabb-d11f-46b8-8f2e-f088ac22490b",
-          "Intentional layer split. Ignoring dual layer GND artifacts"
-        ],
-        [
-          "unconnected_items|124365581|124949828|F.Cu|4|537aeabb-d11f-46b8-8f2e-f088ac22490b|537aeabb-d11f-46b8-8f2e-f088ac22490b",
-          "Intentional layer split. Ignoring dual layer GND artifacts"
-        ],
-        [
-          "unconnected_items|139742026|109091700|F.Cu|4|537aeabb-d11f-46b8-8f2e-f088ac22490b|537aeabb-d11f-46b8-8f2e-f088ac22490b",
-          "Intentional layer split. Ignoring dual layer GND artifacts"
-        ],
-        [
           "unconnected_items|98224743|106250185|F.Cu|4|ad1451f3-12d8-4af6-9cb7-9800a454916c|6e3fd2ec-3178-458f-b422-7bb4569ad12c",
           "Intentional layer split. Used to configure for which side of the split the PCB is used"
         ]
