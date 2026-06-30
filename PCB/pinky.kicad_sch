@@ -280,6 +280,17 @@
 					)
 				)
 			)
+			(property "ki_fp_filters" "Pinky:JST_PH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "JST_PH_0_1"
 				(rectangle
 					(start -2.286 1.778)
@@ -605,6 +616,17 @@
 					)
 				)
 			)
+			(property "ki_fp_filters" "Pinky:MSK12C02"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "MSK12C02_0_1"
 				(circle
 					(center -2.032 0)
@@ -888,6 +910,17 @@
 				)
 			)
 			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pinky:ResetSW"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3531,7 +3564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00b1af25-090b-4bfe-8839-090c600a2893")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG4"
 			(at 55.245 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3592,7 +3625,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG04")
+					(reference "#FLG4")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01656841-06b3-4f44-b363-d6bec19fa6e4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 163.83 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3671,7 +3704,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "141f259a-1a56-46aa-bae6-6be390066d37")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 58.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4091,7 +4124,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -4936,7 +4969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a701e0-db30-4951-906e-cd6c8ae463d2")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG5"
 			(at 57.785 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +5030,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG05")
+					(reference "#FLG5")
 					(unit 1)
 				)
 			)
@@ -5015,7 +5048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9364ba-389e-4338-8b33-f3cfed5e23d6")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG6"
 			(at 60.325 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5076,7 +5109,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG06")
+					(reference "#FLG6")
 					(unit 1)
 				)
 			)
@@ -5169,7 +5202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46124236-c10f-427c-a0d7-a5696417f434")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG1"
 			(at 40.005 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5230,7 +5263,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG01")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722e37e5-7ab4-4acb-846d-463ab9d155c6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 50.8 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6127,7 +6160,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -6226,7 +6259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7772d6c5-a8f2-4af3-8c7d-024547d3e0f6")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG3"
 			(at 53.975 127 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6320,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG03")
+					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -6646,7 +6679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ea15999-0781-4c2e-a266-2adaf5a39946")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 55.88 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6706,7 +6739,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -7765,7 +7798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ccc37e-8950-43ae-aa6d-3c3b807f14ec")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 45.085 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7826,7 +7859,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -7843,7 +7876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c516236d-7229-4a01-a069-eb1adad5e9b6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 35.56 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7903,7 +7936,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -8146,7 +8179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8f30b02-7baf-4e33-a818-4a0fb6edca4b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8206,7 +8239,7 @@
 		(instances
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
