@@ -31,7 +31,7 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 
 | Footprint | Used for |
 |---|---|
-| `D_SOD123` | 1N4148W SMD diodes (16 per board, bottom side) |
+| `D_SOD123` | 1N4148W SMD diodes (16 per board, bottom side), pads with holes are intentional |
 | `JST_PH` | Battery connector (optional, requires jumper bridge) |
 | `Jumper` | Solder jumper pads (JP1–JP10) |
 | `MountingHole` | M2 mounting holes (4 per board) |
