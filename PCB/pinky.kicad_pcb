@@ -13669,6 +13669,28 @@
 				(justify mirror)
 			)
 		)
+		(pad "1" thru_hole circle
+			(at 3.25 0 90)
+			(size 2 2)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "752f8fed-84df-4841-8d19-8ed275661b7c")
+		)
+		(pad "2" thru_hole circle
+			(at -3.25 0 90)
+			(size 2 2)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(remove_unused_layers no)
+			(net "RESET")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "1949ef65-4e87-42ef-a77f-09d04a95921f")
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Pinky.pretty/reset.step"
 			(offset
