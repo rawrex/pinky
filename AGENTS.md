@@ -31,14 +31,14 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 
 | Footprint | Used for |
 |---|---|
-| `D_SOD123` | 1N4148W SMD diodes (17 per board, bottom side) |
+| `D_SOD123` | 1N4148W SMD diodes (16 per board, bottom side) |
 | `JST_PH` | Battery connector (optional, requires jumper bridge) |
-| `Jumper` | Solder jumper pads (JP1–JP4) |
-| `MountingHole` | M2 mounting holes (5 per board) |
+| `Jumper` | Solder jumper pads (JP1–JP10) |
+| `MountingHole` | M2 mounting holes (4 per board) |
 | `MSK12C02` | Power switch |
 | `nice_nano` | MCU module |
 | `ResetSW` | Tactile reset button |
-| `Switch` | Kailh Choc PG1350 keyswitch sockets (17 per board) |
+| `Switch` | Kailh Choc PG1350 keyswitch sockets (16 per board) |
 
 **Naming is consistent:** each footprint name matches its file name and its symbol name in `pinky.kicad_sym`.
 
@@ -50,11 +50,11 @@ Plus 6 `.step` 3D model files in `Pinky.pretty/`. Four match their footprint nam
 
 | Symbol | Used for |
 |---|---|
-| `Jumper` | Solder jumper pads (JP1–JP4) |
+| `Jumper` | Solder jumper pads (JP1–JP10) |
 | `nice_nano` | MCU module |
-| `Switch` | Kailh Choc keyswitch sockets (17 per board) |
-| `D_SOD123` | 1N4148W SMD diodes (17 per board) |
-| `MountingHole` | Mounting holes (5 per board) |
+| `Switch` | Kailh Choc keyswitch sockets (16 per board) |
+| `D_SOD123` | 1N4148W SMD diodes (16 per board) |
+| `MountingHole` | Mounting holes (4 per board) |
 | `ResetSW` | Tactile reset button |
 | `MSK12C02` | Power switch |
 | `JST_PH` | Battery connector (optional, requires jumper bridge) |
@@ -65,7 +65,7 @@ Plus 6 `.step` 3D model files in `Pinky.pretty/`. Four match their footprint nam
 
 - **MCU:** nice!nano (nRF52840); alternatives with compatible pinout work (e.g. Puchi-BLE)
 - **Universal PCB for both halves** — same PCB built twice. Side selected by ZMK firmware at runtime (USB-connected half = central)
-- **Solder jumper pads (JP1–JP4):**
+- **Solder jumper pads (JP1–JP10):** JP1–JP4 are battery mode selection (see below); JP5–JP10 configure power and reset GPIO pins for each side of the split.
   - JST connector mode: bridge JP2+JP3 (top) and JP1+JP4 (bottom)
   - Direct-solder mode: leave open, solder battery wires to PAD1/PAD2
 - **Gerber export:** Plot from KiCad to `Pinky_0-2_gerbers.zip` (not tracked — regenerate)
@@ -73,7 +73,7 @@ Plus 6 `.step` 3D model files in `Pinky.pretty/`. Four match their footprint nam
 
 ## KiCad conventions
 
-- **Only one footprint library** (`Pinky`). All footprints are local — no system library dependencies.
+- **Only one footprint library** (`Pinky`). All footprints are self-contained in `Pinky.pretty/`. D_SOD123 and JST_PH reference system 3D models (`${KICAD10_3DMODEL_DIR}`) for visual rendering — the footprints themselves still resolve locally.
 - **DRC:** min track 0.127 mm, min clearance 0.0 mm, min copper-to-edge 0.5 mm. Violations are `error` severity.
 - **Default net class:** track 0.25 mm, via 0.6/0.3 mm, clearance 0.127 mm.
 
