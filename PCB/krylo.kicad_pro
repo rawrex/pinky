@@ -533,14 +533,14 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Pinky"
+      "krylo"
     ],
     "pinned_symbol_libs": [
-      "Pinky"
+      "krylo"
     ]
   },
   "meta": {
-    "filename": "pinky.kicad_pro",
+    "filename": "krylo.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -709,8 +709,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "pinky.kicad_sch",
-        "name": "Pinky",
+        "filename": "krylo.kicad_sch",
+        "name": "krylo",
         "uuid": "231ead31-262f-44fe-a25c-f58d2465dcca"
       }
     ],
@@ -720,7 +720,7 @@
   "sheets": [
     [
       "231ead31-262f-44fe-a25c-f58d2465dcca",
-      "Pinky"
+      "krylo"
     ]
   ],
   "text_variables": {},

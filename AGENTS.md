@@ -1,4 +1,4 @@
-# Pinky — AGENTS.md
+# krylo — AGENTS.md
 
 34-key column-staggered choc split keyboard — a KiCad v10.0 hardware project.  
 This repo: PCB, footprints, and symbols only.  
@@ -8,26 +8,26 @@ This repo: PCB, footprints, and symbols only.
 
 | Path | What |
 |---|---|
-| `PCB/pinky.kicad_sch` | Schematic (rev 0.1) |
-| `PCB/pinky.kicad_pcb` | PCB layout, 2-layer, 1.6 mm |
-| `PCB/pinky.kicad_pro` | Project settings (DRC rules, net classes, BOM config) |
-| `PCB/Pinky.pretty/` | **8 custom footprints** + **1 symbol library** (`pinky.kicad_sym`). Case-sensitive — dir name is `Pinky.pretty`, not `pinky.pretty` |
-| `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `Pinky` → `${KIPRJMOD}/Pinky.pretty` |
-| `PCB/sym-lib-table` | Symbol library table — references `pinky.kicad_sym` inside `Pinky.pretty/` |
+| `PCB/krylo.kicad_sch` | Schematic (rev 0.1) |
+| `PCB/krylo.kicad_pcb` | PCB layout, 2-layer, 1.6 mm |
+| `PCB/krylo.kicad_pro` | Project settings (DRC rules, net classes, BOM config) |
+| `PCB/krylo.pretty/` | **8 custom footprints** + **1 symbol library** (`krylo.kicad_sym`). Case-sensitive — dir name is `krylo.pretty`, not `krylo.pretty` |
+| `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `krylo` → `${KIPRJMOD}/krylo.pretty` |
+| `PCB/sym-lib-table` | Symbol library table — references `krylo.kicad_sym` inside `krylo.pretty/` |
 
 ## Library gotchas
 
 - **`fp-lib-table` must have exactly one entry.** Two entries (or case-mismatched paths) causes the footprint editor to show nothing.
-- **Directory is `Pinky.pretty` (capital P).** KiCad gets confused if paths don't match. If renamed, update both `fp-lib-table` and `sym-lib-table`.
+- **Directory is `krylo.pretty` (capital P).** KiCad gets confused if paths don't match. If renamed, update both `fp-lib-table` and `sym-lib-table`.
 - **`fp-info-cache` is auto-generated** and gets stale (orphaned footprint entries). Delete it to force regeneration.
-- **`pinky.kicad_prl`** — auto-generated KiCad UI state (layer visibility, window positions). Not for manual editing.
+- **`krylo.kicad_prl`** — auto-generated KiCad UI state (layer visibility, window positions). Not for manual editing.
 - **`~*.lck` files** in `PCB/` — KiCad lock files, gitignored by pattern `PCB/~*.lck`.
-- **`.bak` files** in `Pinky.pretty/` — remove them, they don't belong in the library directory.
-- **Symbol and footprint names must match** — every symbol in `pinky.kicad_sym` references a footprint in `Pinky.pretty/` by name. Renames must be kept in sync.
+- **`.bak` files** in `krylo.pretty/` — remove them, they don't belong in the library directory.
+- **Symbol and footprint names must match** — every symbol in `krylo.kicad_sym` references a footprint in `krylo.pretty/` by name. Renames must be kept in sync.
 
 ## Custom footprints (8)
 
-All in `Pinky.pretty/` as `.kicad_mod`:
+All in `krylo.pretty/` as `.kicad_mod`:
 
 | Footprint | Used for |
 |---|---|
@@ -40,13 +40,13 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 | `ResetSW` | Tactile reset button |
 | `Switch` | Kailh Choc PG1350 keyswitch sockets (16 per board) |
 
-**Naming is consistent:** each footprint name matches its file name and its symbol name in `pinky.kicad_sym`.
+**Naming is consistent:** each footprint name matches its file name and its symbol name in `krylo.kicad_sym`.
 
-Plus 6 `.step` 3D model files in `Pinky.pretty/`. Four match their footprint name (`Switch.step`, `nice_nano.step`, `MSK12C02.step`, `ResetSW.step`); `keycap.step` and `hot_swap_socket.step` are extra models attached to the Switch footprint.
+Plus 6 `.step` 3D model files in `krylo.pretty/`. Four match their footprint name (`Switch.step`, `nice_nano.step`, `MSK12C02.step`, `ResetSW.step`); `keycap.step` and `hot_swap_socket.step` are extra models attached to the Switch footprint.
 
 ## Custom symbols
 
-8 unique symbol types in `pinky.kicad_sym` (16 definitions including unit variants):
+8 unique symbol types in `krylo.kicad_sym` (16 definitions including unit variants):
 
 | Symbol | Used for |
 |---|---|
@@ -59,7 +59,7 @@ Plus 6 `.step` 3D model files in `Pinky.pretty/`. Four match their footprint nam
 | `MSK12C02` | Power switch |
 | `JST_PH` | Battery connector (optional, requires jumper bridge) |
 
-**Symbol-to-footprint mapping is by identical name** — e.g. `Pinky:Switch` (symbol) ↔ `Pinky:Switch` (footprint). No cross-referencing needed.
+**Symbol-to-footprint mapping is by identical name** — e.g. `krylo:Switch` (symbol) ↔ `krylo:Switch` (footprint). No cross-referencing needed.
 
 ## Hardware & manufacturing
 
@@ -68,20 +68,20 @@ Plus 6 `.step` 3D model files in `Pinky.pretty/`. Four match their footprint nam
 - **Solder jumper pads (JP1–JP10):** JP1–JP4 are battery mode selection (see below); JP5–JP10 configure power and reset GPIO pins for each side of the split.
   - JST connector mode: bridge JP2+JP3 (top) and JP1+JP4 (bottom)
   - Direct-solder mode: leave open, solder battery wires to PAD1/PAD2
-- **Gerber export:** Plot from KiCad to `Pinky_0-2_gerbers.zip` (not tracked — regenerate)
+- **Gerber export:** Plot from KiCad to `krylo_0-2_gerbers.zip` (not tracked — regenerate)
 - **JLCPCB key specs:** 120.5 × 85.5 mm, 2 layers, 1.6 mm, black, HASL, no impedance control, **remove order number**
 
 ## KiCad conventions
 
-- **Only one footprint library** (`Pinky`). All footprints are self-contained in `Pinky.pretty/`. D_SOD123 and JST_PH reference system 3D models (`${KICAD10_3DMODEL_DIR}`) for visual rendering — the footprints themselves still resolve locally.
+- **Only one footprint library** (`krylo`). All footprints are self-contained in `krylo.pretty/`. D_SOD123 and JST_PH reference system 3D models (`${KICAD10_3DMODEL_DIR}`) for visual rendering — the footprints themselves still resolve locally.
 - **DRC:** min track 0.127 mm, min clearance 0.0 mm, min copper-to-edge 0.5 mm. Violations are `error` severity.
 - **Default net class:** track 0.25 mm, via 0.6/0.3 mm, clearance 0.127 mm.
 
 ## What not to modify
 
-- `PCB/.history/`, `PCB/~*.lck`, `PCB/pinky.round-tracks-config` — auto-save and lock files (gitignored)
-- `fp-info-cache`, `pinky.kicad_prl` — auto-generated; delete to regenerate
-- `*.bak` in `Pinky.pretty/` — remove if they appear
+- `PCB/.history/`, `PCB/~*.lck`, `PCB/krylo.round-tracks-config` — auto-save and lock files (gitignored)
+- `fp-info-cache`, `krylo.kicad_prl` — auto-generated; delete to regenerate
+- `*.bak` in `krylo.pretty/` — remove if they appear
 
 ## No CI / no build scripts
 

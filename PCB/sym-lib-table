@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "Pinky") (type "KiCad") (uri "${KIPRJMOD}/Pinky.pretty/pinky.kicad_sym") (options "") (descr ""))
+	(lib (name "krylo") (type "KiCad") (uri "${KIPRJMOD}/krylo.pretty/krylo.kicad_sym") (options "") (descr ""))
 )
